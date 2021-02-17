@@ -1,0 +1,1889 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <!-- Title & Favicon -->
+    <title>UI-UX Design Course</title>
+    <!-- CSS Link -->
+    <!-- Nice Select CSS -->
+    <link rel="stylesheet" href="../../css/nice-select.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="../../css/responsive.css" />
+    <!-- Additional CSS For Courses -->
+    <link rel="stylesheet" href="../../css/courses.css" />
+  </head>
+  <body>
+    <!-- ====================================== Start Header Section Here====================================== -->
+    <header id="header-section">
+      <!-- Navbar For Mobile -->
+      <div class="js-side-nav-container side-nav-container d-lg-none">
+        <div class="js-side-nav side-nav">
+          <div class="js-menu-close menu-close text-end d-block mt-4 me-4">
+            <i class="material-icons fa fa-times fa-2x text-danger"></i>
+          </div>
+          <!-- Menu  Items For Mobile -->
+          <div class="mobile-menus">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="javascript:void(0)"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Courses</a>
+              </li>
+              <li class="nav-item mobile-menu-item">
+                <a class="d-flex align-items-center" href="javascript:void(0)"
+                  ><span class="para-size">Message</span>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5 12.875H7.625L10.25 15.5H13.75L16.375 12.875H19M6.75 5H17.25C18.2165 5 19 5.7835 19 6.75V17.25C19 18.2165 18.2165 19 17.25 19H6.75C5.7835 19 5 18.2165 5 17.25V6.75C5 5.7835 5.7835 5 6.75 5Z"
+                      stroke="#333333"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <circle cx="18" cy="6" r="3" fill="#CA1B1B" />
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item mobile-menu-item">
+                <a class="d-flex align-items-center" href="javascript:void(0)"
+                  ><span class="para-size">Notification</span>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12.7199 18.3024C12.5959 18.5145 12.418 18.6907 12.2039 18.8131C11.9898 18.9356 11.7471 19 11.5 19C11.253 19 11.0102 18.9356 10.7961 18.8131C10.582 18.6907 10.4041 18.5145 10.2801 18.3024M9.73718 6.75031L10.2801 5.69764C10.4041 5.48545 10.582 5.30932 10.7961 5.18688C11.0102 5.06444 11.2529 5 11.5 5C11.747 5 11.9898 5.06444 12.2039 5.18688C12.418 5.30932 12.5959 5.48545 12.7199 5.69764L13.2628 6.75031M15.7308 10.601C15.7308 9.48688 15.285 8.41841 14.4916 7.63062C13.6982 6.84282 12.6221 6.40025 11.5 6.40025C10.3779 6.40025 9.30182 6.84282 8.50839 7.63062C7.71497 8.41841 7.26923 9.48688 7.26923 10.601C7.26923 15.5019 6 16.9021 6 16.9021H17C17 16.9021 15.7308 15.5019 15.7308 10.601Z"
+                      stroke="#333333"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <circle cx="18" cy="6" r="3" fill="#CA1B1B" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <!-- Search Box -->
+            <div class="search-box bg-white border rounded mobile-menu-item">
+              <form
+                action="javascript:void(0)"
+                class="d-flex justify-content-between"
+              >
+                <input
+                  class="search-input border-0 w-100"
+                  type="text"
+                  name="search"
+                  placeholder="Search Here"
+                />
+                <button class="submit-search text-center border-0">
+                  <i class="fa fa-search"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Navbar For Desktop -->
+      <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+          <!-- Logo -->
+          <a class="navbar-brand" href="../../index.html"
+            ><img src="../../img/logotype.png" alt="logo"
+          /></a>
+          <!-- Select Option For Mobile -->
+          <select class="border-0 d-lg-none me-4 p-0 pe-5">
+            <option value="1">Title</option>
+            <option value="2">Title</option>
+            <option value="3">Title</option>
+            <option value="4">Title</option>
+          </select>
+          <!-- User Profile For Mobile -->
+          <a
+            href="javascript:void(0)"
+            class="user-box d-flex align-items-center ms-0 me-2 d-lg-none"
+          >
+            <div class="user-img">
+              <svg
+                width="32"
+                height="36"
+                viewBox="0 0 32 36"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.59708 29.2803C0.39911 30.2071 -0.119858 33.5284 0.0204034 35.0732V36H31.9796V35.0732C32.1197 33.5182 31.6014 30.175 28.4073 29.242C25.2132 28.309 21.893 27.2982 20.6322 26.9095L20.4221 24.1105C21.1225 23.644 22.6075 21.9646 22.9437 18.979C23.5741 19.2122 25.1712 18.5592 25.6755 15.9468C26.3059 12.6813 25.2552 12.448 24.2046 12.9145C24.5589 11.3411 25.0991 7.86989 24.4259 6.57229L23.3739 4.71858C23.5142 4.79581 23.963 5.13566 24.6363 5.87715C24.5661 4.95029 24.0051 3.05023 22.3219 2.86486C22.1116 2.86486 21.5645 2.9112 21.0596 3.09657C20.6388 1.86076 19.2081 -0.471857 16.8517 0.0842583C16.0102 0.315949 15.0283 0.238735 14.5374 0.0842583C14.8741 0.640373 15.6595 0.779402 16.0102 0.779402C15.8699 0.856635 15.2528 0.918415 13.9062 0.547672C12.5597 0.176928 10.1192 1.47454 9.06722 2.16969C9.90879 1.98432 10.6802 2.09245 10.9608 2.16969C10.4698 2.32417 9.15137 3.09655 7.80486 4.95027C6.45835 6.80398 7.24382 11.1293 7.80486 13.0603C6.7529 12.5968 5.70094 12.8286 6.33212 16.0726C6.83706 18.6678 8.43604 19.3166 9.06722 19.0848C9.40385 22.0508 10.8906 23.7191 11.5919 24.1826L11.3815 26.9631C10.1192 27.3493 6.79504 28.3534 3.59708 29.2803Z"
+                  fill="#B2B2B2"
+                />
+              </svg>
+            </div>
+          </a>
+          <!-- Settings For Mobile -->
+          <a class="settings me-4 d-lg-none" href="javascript:void(0)"
+            ><i class="fas fa-angle-down ms-3 para-size"></i
+          ></a>
+          <!-- Menu Bar Icon -->
+          <button class="border-0 js-menu-open menu-open d-lg-none">
+            <i class="material-icons fa fa-bars text-dark"></i>
+          </button>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+              <li class="nav-item">
+                <a href="../../index.html" class="nav-link"
+                  ><span>SSC LMS</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="javascript:void(0)"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Courses</a>
+              </li>
+            </ul>
+            <!-- Search Box For Desktop -->
+            <div class="d-flex align-items-center">
+              <div
+                id="search-box"
+                class="search-box bg-white border rounded position-absolute search-box-transform"
+              >
+                <form action="javascript:void(0)" class="d-flex">
+                  <input
+                    class="search-input border-0"
+                    type="text"
+                    name="search"
+                    placeholder="Search Here"
+                  />
+                  <button class="submit-search text-center border-0">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+            <!-- Select Option For Desktop -->
+            <select class="border-0">
+              <option value="1">Title</option>
+              <option value="2">Title</option>
+              <option value="3">Title</option>
+              <option value="4">Title</option>
+            </select>
+            <!-- Search Button -->
+            <button class="search-btn border-0">
+              <span class="d-block" style="width: 7rem">
+                <i class="fa fa-search search-icon"></i>
+              </span>
+            </button>
+            <!-- Message -->
+            <a class="px-3 py-2" href="javascript:void(0)">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5 12.875H7.625L10.25 15.5H13.75L16.375 12.875H19M6.75 5H17.25C18.2165 5 19 5.7835 19 6.75V17.25C19 18.2165 18.2165 19 17.25 19H6.75C5.7835 19 5 18.2165 5 17.25V6.75C5 5.7835 5.7835 5 6.75 5Z"
+                  stroke="#333333"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <circle cx="18" cy="6" r="3" fill="#CA1B1B" />
+              </svg>
+            </a>
+            <!-- Notifications -->
+            <a class="px-3 py-2" href="javascript:void(0)">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.7199 18.3024C12.5959 18.5145 12.418 18.6907 12.2039 18.8131C11.9898 18.9356 11.7471 19 11.5 19C11.253 19 11.0102 18.9356 10.7961 18.8131C10.582 18.6907 10.4041 18.5145 10.2801 18.3024M9.73718 6.75031L10.2801 5.69764C10.4041 5.48545 10.582 5.30932 10.7961 5.18688C11.0102 5.06444 11.2529 5 11.5 5C11.747 5 11.9898 5.06444 12.2039 5.18688C12.418 5.30932 12.5959 5.48545 12.7199 5.69764L13.2628 6.75031M15.7308 10.601C15.7308 9.48688 15.285 8.41841 14.4916 7.63062C13.6982 6.84282 12.6221 6.40025 11.5 6.40025C10.3779 6.40025 9.30182 6.84282 8.50839 7.63062C7.71497 8.41841 7.26923 9.48688 7.26923 10.601C7.26923 15.5019 6 16.9021 6 16.9021H17C17 16.9021 15.7308 15.5019 15.7308 10.601Z"
+                  stroke="#333333"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <circle cx="18" cy="6" r="3" fill="#CA1B1B" />
+              </svg>
+            </a>
+            <!-- User Profile For Desktop -->
+            <a
+              href="javascript:void(0)"
+              class="user-box d-flex align-items-center"
+            >
+              <div class="user-img me-4">
+                <svg
+                  width="32"
+                  height="36"
+                  viewBox="0 0 32 36"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.59708 29.2803C0.39911 30.2071 -0.119858 33.5284 0.0204034 35.0732V36H31.9796V35.0732C32.1197 33.5182 31.6014 30.175 28.4073 29.242C25.2132 28.309 21.893 27.2982 20.6322 26.9095L20.4221 24.1105C21.1225 23.644 22.6075 21.9646 22.9437 18.979C23.5741 19.2122 25.1712 18.5592 25.6755 15.9468C26.3059 12.6813 25.2552 12.448 24.2046 12.9145C24.5589 11.3411 25.0991 7.86989 24.4259 6.57229L23.3739 4.71858C23.5142 4.79581 23.963 5.13566 24.6363 5.87715C24.5661 4.95029 24.0051 3.05023 22.3219 2.86486C22.1116 2.86486 21.5645 2.9112 21.0596 3.09657C20.6388 1.86076 19.2081 -0.471857 16.8517 0.0842583C16.0102 0.315949 15.0283 0.238735 14.5374 0.0842583C14.8741 0.640373 15.6595 0.779402 16.0102 0.779402C15.8699 0.856635 15.2528 0.918415 13.9062 0.547672C12.5597 0.176928 10.1192 1.47454 9.06722 2.16969C9.90879 1.98432 10.6802 2.09245 10.9608 2.16969C10.4698 2.32417 9.15137 3.09655 7.80486 4.95027C6.45835 6.80398 7.24382 11.1293 7.80486 13.0603C6.7529 12.5968 5.70094 12.8286 6.33212 16.0726C6.83706 18.6678 8.43604 19.3166 9.06722 19.0848C9.40385 22.0508 10.8906 23.7191 11.5919 24.1826L11.3815 26.9631C10.1192 27.3493 6.79504 28.3534 3.59708 29.2803Z"
+                    fill="#B2B2B2"
+                  />
+                </svg>
+              </div>
+              <div style="font-weight: 700" class="user-name para-size">
+                Jerome Bell
+              </div>
+            </a>
+            <!-- Settings For Desktop -->
+            <a class="settings" href="javascript:void(0)"
+              ><i class="fas fa-angle-down ms-3 para-size"></i
+            ></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- ====================================== End Header Section Here ====================================== -->
+
+    <!-- ====================================== Start Courses Banner Section Here ====================================== -->
+    <section id="courses-banner-section">
+      <div class="container">
+        <!-- Breadcrumb -->
+        <div class="breadcrumb-box">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb align-items-center">
+              <li class="breadcrumb-item">
+                <a href="javascript:void(0)">Home</a>
+              </li>
+              <li class="fas fa-angle-left breadcrumb-icon"></li>
+              <li class="breadcrumb-item">
+                <a href="javascript:void(0)">Courses</a>
+              </li>
+              <li class="fas fa-angle-left breadcrumb-icon"></li>
+              <li class="breadcrumb-item active" aria-current="page">
+                UI/UX Design
+              </li>
+            </ol>
+          </nav>
+        </div>
+        <!-- Course Short Info -->
+        <div class="course-short-info">
+          <div class="row">
+            <div class="col-lg-8">
+              <h2 class="heading">UI/UX Design</h2>
+              <div
+                class="course-mentor-info-and-published-date d-flex align-items-center"
+              >
+                <div class="course-mentor-info d-flex align-items-center">
+                  <img src="../../img/ui-ux-mentor.png" alt="mentor" />
+                  <span
+                    style="font-weight: 700"
+                    class="course-mentor-name para-size ms-3"
+                    >Cameron Williamson</span
+                  >
+                </div>
+                <div
+                  class="course-published-date ms-5 ms-sm-0 d-flex align-items-center"
+                >
+                  <i
+                    style="font-size: 0.5rem; color: #4d4d4d"
+                    class="fas fa-circle mx-4"
+                  ></i>
+                  <p class="para-size">November 8, 2020</p>
+                </div>
+              </div>
+            </div>
+            <!-- Course Video For Desktop -->
+            <div class="col-lg-4 position-relative">
+              <div class="courses-video-popup d-none d-lg-block">
+                <div class="video-wrapper">
+                  <img
+                    src="../../img/course-intro-video-img.png"
+                    alt="img"
+                    class="w-100"
+                  />
+                  <div class="video-box">
+                    <div class="play-icon">
+                      <a
+                        class="video-link"
+                        href="../../video/real-estate.mp4"
+                        data-width="1920"
+                        data-height="1080"
+                      >
+                        <i class="fas fa-play"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====================================== End Courses Banner Section Here ====================================== -->
+
+    <!-- ====================================== Start About Course Section Here ====================================== -->
+    <section id="about-course-section">
+      <div class="container">
+        <div class="row gy-5">
+          <!-- For Mobile -->
+          <div class="col-lg-4 d-lg-none">
+            <!-- Course Video For Mobile -->
+            <div class="courses-video-popup d-lg-none">
+              <div class="video-wrapper">
+                <img
+                  src="../../img/course-intro-video-img.png"
+                  alt="img"
+                  class="w-100"
+                />
+                <div class="video-box">
+                  <div class="play-icon">
+                    <a
+                      class="video-link"
+                      href="../../video/real-estate.mp4"
+                      data-width="1920"
+                      data-height="1080"
+                    >
+                      <i class="fas fa-play"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Course Includes -->
+            <div class="course-includes-box">
+              <h3>Course Includes:</h3>
+              <div class="course-includes-items">
+                <div
+                  class="course-includes-item py-4 border-bottom d-flex justify-content-between align-items-center"
+                >
+                  <svg
+                    viewBox="0 0 16 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.99967 11.8333C6.98621 11.2367 5.83659 10.9226 4.66634 10.9226C3.4961 10.9226 2.34647 11.2367 1.33301 11.8333V1.91077C2.34647 1.31411 3.4961 1 4.66634 1C5.83659 1 6.98621 1.31411 7.99967 1.91077M7.99967 11.8333C9.01314 11.2367 10.1628 10.9226 11.333 10.9226C12.5033 10.9226 13.6529 11.2367 14.6663 11.8333V1.91077C13.6529 1.31411 12.5033 1 11.333 1C10.1628 1 9.01314 1.31411 7.99967 1.91077M7.99967 11.8333V1.91077"
+                      stroke="#666666"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <p class="para-size ms-2">Lessons</p>
+                  <p
+                    style="font-weight: 700; color: #000000"
+                    class="quantity para-size ms-auto"
+                  >
+                    3
+                  </p>
+                </div>
+                <div
+                  class="course-includes-item py-4 border-bottom d-flex justify-content-between align-items-center"
+                >
+                  <svg
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.00033 3.75922V6.99996L8.94477 8.9444M12.8337 6.99996C12.8337 10.2216 10.222 12.8333 7.00033 12.8333C3.77866 12.8333 1.16699 10.2216 1.16699 6.99996C1.16699 3.7783 3.77866 1.16663 7.00033 1.16663C10.222 1.16663 12.8337 3.7783 12.8337 6.99996Z"
+                      stroke="#666666"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+
+                  <p class="para-size ms-2">Duration</p>
+                  <p
+                    style="font-weight: 700; color: #000000"
+                    class="quantity para-size ms-auto"
+                  >
+                    7 weeks
+                  </p>
+                </div>
+                <div
+                  class="course-includes-item py-4 border-bottom d-flex justify-content-between align-items-center"
+                >
+                  <svg
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.81514 3.75922H3.75959C3.93148 3.75922 4.09634 3.69093 4.2179 3.56938C4.33945 3.44783 4.40773 3.28297 4.40773 3.11107V2.46292C4.40773 2.11912 4.54431 1.78941 4.78741 1.5463C5.03051 1.3032 5.36023 1.16663 5.70403 1.16663C6.04783 1.16663 6.37755 1.3032 6.62065 1.5463C6.86375 1.78941 7.00033 2.11912 7.00033 2.46292V3.11107C7.00033 3.28297 7.06861 3.44783 7.19016 3.56938C7.31172 3.69093 7.47657 3.75922 7.64847 3.75922H9.59292C9.76482 3.75922 9.92968 3.82751 10.0512 3.94906C10.1728 4.07061 10.2411 4.23547 10.2411 4.40737V6.35181C10.2411 6.52371 10.3094 6.68857 10.4309 6.81012C10.5525 6.93167 10.7173 6.99996 10.8892 6.99996H11.5374C11.8812 6.99996 12.2109 7.13653 12.454 7.37964C12.6971 7.62274 12.8337 7.95246 12.8337 8.29626C12.8337 8.64006 12.6971 8.96977 12.454 9.21288C12.2109 9.45598 11.8812 9.59255 11.5374 9.59255H10.8892C10.7173 9.59255 10.5525 9.66084 10.4309 9.78239C10.3094 9.90394 10.2411 10.0688 10.2411 10.2407V12.1851C10.2411 12.357 10.1728 12.5219 10.0512 12.6435C9.92968 12.765 9.76482 12.8333 9.59292 12.8333H7.64847C7.47657 12.8333 7.31172 12.765 7.19016 12.6435C7.06861 12.5219 7.00033 12.357 7.00033 12.1851V11.537C7.00033 11.1932 6.86375 10.8635 6.62065 10.6204C6.37755 10.3773 6.04783 10.2407 5.70403 10.2407C5.36023 10.2407 5.03051 10.3773 4.78741 10.6204C4.54431 10.8635 4.40773 11.1932 4.40773 11.537V12.1851C4.40773 12.357 4.33945 12.5219 4.2179 12.6435C4.09634 12.765 3.93148 12.8333 3.75959 12.8333H1.81514C1.64324 12.8333 1.47838 12.765 1.35683 12.6435C1.23528 12.5219 1.16699 12.357 1.16699 12.1851V10.2407C1.16699 10.0688 1.23528 9.90394 1.35683 9.78239C1.47838 9.66084 1.64324 9.59255 1.81514 9.59255H2.46329C2.80709 9.59255 3.13681 9.45598 3.37991 9.21288C3.62301 8.96977 3.75959 8.64006 3.75959 8.29626C3.75959 7.95246 3.62301 7.62274 3.37991 7.37964C3.13681 7.13653 2.80709 6.99996 2.46329 6.99996H1.81514C1.64324 6.99996 1.47838 6.93167 1.35683 6.81012C1.23528 6.68857 1.16699 6.52371 1.16699 6.35181V4.40737C1.16699 4.23547 1.23528 4.07061 1.35683 3.94906C1.47838 3.82751 1.64324 3.75922 1.81514 3.75922"
+                      stroke="#666666"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+
+                  <p class="para-size ms-2">Quizzes</p>
+                  <p
+                    style="font-weight: 700; color: #000000"
+                    class="quantity para-size ms-auto"
+                  >
+                    2
+                  </p>
+                </div>
+                <div
+                  class="course-includes-item py-4 border-bottom d-flex justify-content-between align-items-center"
+                >
+                  <svg
+                    viewBox="0 0 12 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.125 5.375L6 7.25L11 2.25M11 6V9.75C11 10.0815 10.8683 10.3995 10.6339 10.6339C10.3995 10.8683 10.0815 11 9.75 11H2.25C1.91848 11 1.60054 10.8683 1.36612 10.6339C1.1317 10.3995 1 10.0815 1 9.75V2.25C1 1.91848 1.1317 1.60054 1.36612 1.36612C1.60054 1.1317 1.91848 1 2.25 1H7.875"
+                      stroke="#666666"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+
+                  <p class="para-size ms-2">Assessments</p>
+                  <p
+                    style="font-weight: 700; color: #000000"
+                    class="quantity para-size ms-auto"
+                  >
+                    Yes
+                  </p>
+                </div>
+                <div
+                  class="course-includes-item py-4 d-flex justify-content-between align-items-center"
+                >
+                  <svg
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.64849 9.74504V12.8333L8.94478 11.8039L10.2411 12.8333V9.74504M5.70403 10.7745H2.46329C2.11949 10.7745 1.78977 10.6299 1.54667 10.3725C1.30357 10.1151 1.16699 9.76599 1.16699 9.40196V2.53918C1.16699 1.78428 1.75033 1.16663 2.46329 1.16663H11.5374C11.8812 1.16663 12.2109 1.31123 12.454 1.56864C12.6971 1.82604 12.8337 2.17516 12.8337 2.53918V9.40196C12.8334 9.64266 12.7734 9.87906 12.6597 10.0874C12.5459 10.2958 12.3824 10.4689 12.1855 10.5892M3.11144 3.91171H10.8892M3.11144 5.97054H5.05588M3.11144 8.02938H4.40773M10.8892 8.02938C10.8892 9.16644 10.0187 10.0882 8.94477 10.0882C7.87088 10.0882 7.00033 9.16644 7.00033 8.02938C7.00033 6.89231 7.87088 5.97054 8.94477 5.97054C10.0187 5.97054 10.8892 6.89231 10.8892 8.02938Z"
+                      stroke="#666666"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+
+                  <p class="para-size ms-2">Course Certificate</p>
+                  <p
+                    style="font-weight: 700; color: #000000"
+                    class="quantity para-size ms-auto"
+                  ></p>
+                </div>
+              </div>
+              <!-- Course Start Now Button -->
+              <div class="button-box mt-4">
+                <a
+                  class="btn btn-off-green font-bold btn-block w-100 py-2"
+                  href="javascript:void(0)"
+                  >Start Course</a
+                >
+              </div>
+              <!-- Share This Course Button -->
+              <div
+                class="button-box mt-3 d-flex justify-content-center align-items-center"
+              >
+                <svg
+                  width="17"
+                  height="16"
+                  viewBox="0 0 17 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.93331 6.98887L11.0666 4.34443M5.93331 9.0111L11.0666 11.6555M6.16667 8C6.16667 9.28866 5.122 10.3333 3.83333 10.3333C2.54467 10.3333 1.5 9.28866 1.5 8C1.5 6.71134 2.54467 5.66667 3.83333 5.66667C5.122 5.66667 6.16667 6.71134 6.16667 8ZM15.5 3.33333C15.5 4.622 14.4553 5.66667 13.1667 5.66667C11.878 5.66667 10.8333 4.622 10.8333 3.33333C10.8333 2.04467 11.878 1 13.1667 1C14.4553 1 15.5 2.04467 15.5 3.33333ZM15.5 12.6667C15.5 13.9553 14.4553 15 13.1667 15C11.878 15 10.8333 13.9553 10.8333 12.6667C10.8333 11.378 11.878 10.3333 13.1667 10.3333C14.4553 10.3333 15.5 11.378 15.5 12.6667Z"
+                    stroke="#98CA1B"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+
+                <a
+                  style="color: #98ca1b"
+                  class="btn py-2 font-bold"
+                  href="javascript:void(0)"
+                  >Share This Course</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Course Details Tab -->
+          <div class="col-lg-8">
+            <div class="position-relative">
+              <!-- Tab Prev and Next Arrow -->
+              <!-- <div class="tab-next-prev-arrows d-md-none">
+                <div class="position-absolute" id="prev-tab">
+                  <i class="fas fa-angle-left para-size bg-white"></i>
+                </div>
+                <div class="position-absolute" id="next-tab">
+                  <i class="fas fa-angle-right para-size bg-white"></i>
+                </div>
+              </div> -->
+              <ul class="course-details-tab nav mb-0" id="tab" role="tablist">
+                <!-- Overview -->
+                <li class="nav-item" role="presentation">
+                  <a
+                    class="nav-link active"
+                    id="overview-tab"
+                    data-bs-toggle="pill"
+                    href="#overview"
+                    role="tab"
+                    aria-controls="overview"
+                    aria-selected="true"
+                    >Overview</a
+                  >
+                </li>
+                <!-- Table of content -->
+                <li class="nav-item" role="presentation">
+                  <a
+                    class="nav-link"
+                    id="table-of-content-tab"
+                    data-bs-toggle="pill"
+                    href="#table-of-content"
+                    role="tab"
+                    aria-controls="table-of-content"
+                    aria-selected="false"
+                  >
+                    Table of content</a
+                  >
+                </li>
+                <!-- Discussion -->
+                <li class="nav-item" role="presentation">
+                  <a
+                    class="nav-link"
+                    id="discussion-tab"
+                    data-bs-toggle="pill"
+                    href="#discussion"
+                    role="tab"
+                    aria-controls="discussion"
+                    aria-selected="false"
+                    >Discussion</a
+                  >
+                </li>
+                <!-- Instructor info -->
+                <li class="nav-item" role="presentation">
+                  <a
+                    class="nav-link"
+                    id="instructor-info-tab"
+                    data-bs-toggle="pill"
+                    href="#instructor-info"
+                    role="tab"
+                    aria-controls="instructor-info"
+                    aria-selected="false"
+                    >Instructor info</a
+                  >
+                </li>
+                <!-- Reviews -->
+                <li class="nav-item" role="presentation">
+                  <a
+                    class="nav-link"
+                    id="reviews-tab"
+                    data-bs-toggle="pill"
+                    href="#reviews"
+                    role="tab"
+                    aria-controls="reviews"
+                    aria-selected="false"
+                    >Reviews</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- Tab Contents -->
+            <div class="tab-content bg-white" id="tabContent">
+              <!-- Overview Content -->
+              <div
+                class="tab-pane fade show active"
+                id="overview"
+                role="tabpanel"
+                aria-labelledby="overview-tab"
+              >
+                <div class="course-details">
+                  <h2>Course Details</h2>
+                  <p class="para-size mt-4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                    interdum pharetra, eget nisl aliquet ornare proin. Lobortis
+                    volutpat cursus dignissim elementum. Sit semper aliquam
+                    consectetur varius tempus, lectus habitant sem mi.
+                    Pellentesque volutpat amet, fringilla id sapien, vulputate
+                    vitae, arcu pretium. At arcu pellentesque vitae feugiat
+                    amet, nibh lobortis habitant. <br />
+                    Imperdiet volutpat, pretium velit semper hendrerit in
+                    tincidunt. Aenean lacus, vestibulum cursus risus, aliquam
+                    fusce orci aliquam. Elementum varius amet at dui, proin
+                    eleifend id. Bibendum nunc, id semper eu. Mauris aliquet
+                    adipiscing iaculis pretium eu quam sem amet vitae.
+                    Consectetur dictumst adipiscing nunc, vitae. At tincidunt
+                    senectus nisl vulputate semper dignissim. Euismod pretium
+                    nunc, est donec ut. Tempus, felis, fringilla neque nisi.
+                    Tincidunt cras integer volutpat et neque at at elementum,
+                    sed. Sed hac et, interdum nisl lacus augue. Etiam leo, nisi
+                    suspendisse aenean risus. <br />
+                    Ultrices lectus vitae, in nibh id nunc ullamcorper amet,
+                    semper. Consequat suspendisse laoreet vestibulum, quis
+                    vitae. Pellentesque condimentum diam adipiscing blandit
+                    blandit facilisis sollicitudin. Mauris metus elementum
+                    praesent arcu et vitae quisque volutpat eu. Praesent quis ut
+                    purus venenatis. Malesuada amet pretium pellentesque odio
+                    adipiscing risus, donec mollis. Egestas iaculis a orci
+                    consequat morbi nibh ullamcorper. Est enim nibh in at
+                    vestibulum diam sit diam. Ullamcorper lectus rutrum justo
+                    condimentum facilisi. Hendrerit sed feugiat sit dolor
+                    pellentesque consequat. Orci pulvinar elementum dui enim
+                    tempus feugiat condimentum odio tellus.
+                  </p>
+                </div>
+                <div class="what-you-will-learn mt-5">
+                  <h2>What you’ll learn?</h2>
+                  <ul class="p-0 mt-4">
+                    <li class="para-size list-unstyled">
+                      <span style="color: #98ca1b">•</span> Phasellus enim
+                      magna, varius et commodo ut.
+                    </li>
+                    <li class="para-size list-unstyled mt-2">
+                      <span style="color: #98ca1b">•</span> Sed consequat justo
+                      non mauris pretium at tempor justo
+                    </li>
+                    <li class="para-size list-unstyled mt-2">
+                      <span style="color: #98ca1b">•</span> Ut nulla tellus,
+                      eleifend euismod pellentesque vel, sagittis vel justo
+                    </li>
+                    <li class="para-size list-unstyled mt-2">
+                      <span style="color: #98ca1b">•</span> Phasellus enim
+                      magna, varius et commodo ut.
+                    </li>
+                    <li class="para-size list-unstyled mt-2">
+                      <span style="color: #98ca1b">•</span> Phasellus enim
+                      magna, varius et commodo ut.
+                    </li>
+                    <li class="para-size list-unstyled mt-2">
+                      <span style="color: #98ca1b">•</span> Sed consequat justo
+                      non mauris pretium at tempor justo.
+                    </li>
+                    <li class="para-size list-unstyled mt-2">
+                      <span style="color: #98ca1b">•</span> Ut nulla tellus,
+                      eleifend euismod pellentesque vel, sagittis vel justo
+                    </li>
+                    <li class="para-size list-unstyled mt-2">
+                      <span style="color: #98ca1b">•</span> Phasellus enim
+                      magna, varius et commodo ut.
+                    </li>
+                  </ul>
+                </div>
+                <div class="requirements mt-5">
+                  <h2>Requirements</h2>
+                  <ul class="p-0 mt-4">
+                    <li class="para-size list-unstyled">
+                      <span style="color: #98ca1b">•</span> Phasellus enim
+                      magna, varius et commodo ut, ultricies vitae velit. Ut
+                      nulla tellus, eleifend euismod pellentesque vel, sagittis
+                      vel justo
+                    </li>
+                    <li class="para-size list-unstyled mt-2">
+                      <span style="color: #98ca1b">•</span> Ultricies vitae
+                      velit. Ut nulla tellus, eleifend euismod pellentesque vel.
+                    </li>
+                    <li class="para-size list-unstyled mt-2">
+                      <span style="color: #98ca1b">•</span> Phasellus enim
+                      magna, varius et commodo ut.
+                    </li>
+                    <li class="para-size list-unstyled mt-2">
+                      <span style="color: #98ca1b">•</span> Varius et commodo
+                      ut, ultricies vitae velit. Ut nulla tellus.
+                    </li>
+                    <li class="para-size list-unstyled mt-2">
+                      <span style="color: #98ca1b">•</span> Phasellus enim
+                      magna, varius et commodo ut.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Table Of Content -->
+              <div
+                class="tab-pane fade"
+                id="table-of-content"
+                role="tabpanel"
+                aria-labelledby="table-of-content-tab"
+              >
+                <h2>Course Content</h2>
+                <!-- Accordions -->
+                <div class="accordion" id="accordionExample">
+                  <!-- Accordion Item -->
+                  <div class="accordion-item mt-4">
+                    <div class="accordion-header" id="headingOne">
+                      <button
+                        class="accordion-button border-0 p-0 mb-4"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        <span
+                          class="d-flex w-100 justify-content-between align-items-center"
+                        >
+                          <span class="para-size font-bold"
+                            >Lesson Theme #1</span
+                          >
+                          <span class="quiz-progress ms-auto"
+                            ><span
+                              style="width: 33.33%"
+                              class="quiz-progress-bar"
+                            ></span
+                          ></span>
+                          <span class="para-size ms-3">1/3</span>
+                        </span>
+                      </button>
+                    </div>
+                    <div
+                      id="collapseOne"
+                      class="accordion-collapse collapse show border-0"
+                      aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body p-0">
+                        <!-- Lessons -->
+                        <div class="lessons">
+                          <!-- Lesson Item -->
+                          <div
+                            class="lesson-item d-block w-100 py-3 border-bottom"
+                          >
+                            <div
+                              class="d-flex justify-content-between align-items-center"
+                            >
+                              <svg
+                                width="14"
+                                height="18"
+                                viewBox="0 0 14 18"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M8.71428 1V4.55556C8.71428 4.7913 8.80459 5.0174 8.96534 5.18409C9.12608 5.35079 9.3441 5.44444 9.57143 5.44444H13M8.71428 1H2.71429C2.25963 1 1.82359 1.1873 1.5021 1.5207C1.18061 1.8541 1 2.30628 1 2.77778V15.2222C1 15.6937 1.18061 16.1459 1.5021 16.4793C1.82359 16.8127 2.25963 17 2.71429 17H11.2857C11.7404 17 12.1764 16.8127 12.4979 16.4793C12.8194 16.1459 13 15.6937 13 15.2222L13 5.44444M8.71428 1L13 5.44444"
+                                  stroke="#98CA1B"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                              <p class="para-size ms-3">Lesson text #1</p>
+                              <a
+                                href="javascript:void(0)"
+                                class="btn btn-off-green ms-auto"
+                              >
+                                <i class="far fa-clock me-3"></i>20 min
+                              </a>
+                            </div>
+                          </div>
+                          <!-- Lesson Item -->
+                          <div
+                            class="lesson-item d-block w-100 py-3 border-bottom"
+                          >
+                            <div
+                              class="d-flex justify-content-between align-items-center"
+                            >
+                              <svg
+                                width="14"
+                                height="18"
+                                viewBox="0 0 14 18"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M8.71428 1V4.55556C8.71428 4.7913 8.80459 5.0174 8.96534 5.18409C9.12608 5.35079 9.3441 5.44444 9.57143 5.44444H13M8.71428 1H2.71429C2.25963 1 1.82359 1.1873 1.5021 1.5207C1.18061 1.8541 1 2.30628 1 2.77778V15.2222C1 15.6937 1.18061 16.1459 1.5021 16.4793C1.82359 16.8127 2.25963 17 2.71429 17H11.2857C11.7404 17 12.1764 16.8127 12.4979 16.4793C12.8194 16.1459 13 15.6937 13 15.2222L13 5.44444M8.71428 1L13 5.44444"
+                                  stroke="#98CA1B"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                              <p class="para-size ms-3">Lesson text #2</p>
+                              <a
+                                href="javascript:void(0)"
+                                class="btn btn-off-green ms-auto"
+                              >
+                                <i class="far fa-clock me-3"></i>20 min
+                              </a>
+                            </div>
+                          </div>
+                          <!-- Lesson Item -->
+                          <div class="lesson-item d-block w-100 py-3">
+                            <div
+                              class="d-flex justify-content-between align-items-center"
+                            >
+                              <svg
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M1.77778 4.11111H4.11111C4.31739 4.11111 4.51522 4.02917 4.66108 3.88331C4.80694 3.73744 4.88889 3.53961 4.88889 3.33333V2.55556C4.88889 2.143 5.05278 1.74733 5.3445 1.45561C5.63622 1.16389 6.03189 1 6.44444 1C6.857 1 7.25266 1.16389 7.54439 1.45561C7.83611 1.74733 8 2.143 8 2.55556V3.33333C8 3.53961 8.08194 3.73744 8.22781 3.88331C8.37367 4.02917 8.5715 4.11111 8.77778 4.11111H11.1111C11.3174 4.11111 11.5152 4.19306 11.6611 4.33892C11.8069 4.48478 11.8889 4.68261 11.8889 4.88889V7.22222C11.8889 7.4285 11.9708 7.62633 12.1167 7.77219C12.2626 7.91806 12.4604 8 12.6667 8H13.4444C13.857 8 14.2527 8.16389 14.5444 8.45561C14.8361 8.74734 15 9.143 15 9.55556C15 9.96811 14.8361 10.3638 14.5444 10.6555C14.2527 10.9472 13.857 11.1111 13.4444 11.1111H12.6667C12.4604 11.1111 12.2626 11.1931 12.1167 11.3389C11.9708 11.4848 11.8889 11.6826 11.8889 11.8889V14.2222C11.8889 14.4285 11.8069 14.6263 11.6611 14.7722C11.5152 14.9181 11.3174 15 11.1111 15H8.77778C8.5715 15 8.37367 14.9181 8.22781 14.7722C8.08194 14.6263 8 14.4285 8 14.2222V13.4444C8 13.0319 7.83611 12.6362 7.54439 12.3445C7.25266 12.0528 6.857 11.8889 6.44444 11.8889C6.03189 11.8889 5.63622 12.0528 5.3445 12.3445C5.05278 12.6362 4.88889 13.0319 4.88889 13.4444V14.2222C4.88889 14.4285 4.80694 14.6263 4.66108 14.7722C4.51522 14.9181 4.31739 15 4.11111 15H1.77778C1.5715 15 1.37367 14.9181 1.22781 14.7722C1.08194 14.6263 1 14.4285 1 14.2222V11.8889C1 11.6826 1.08194 11.4848 1.22781 11.3389C1.37367 11.1931 1.5715 11.1111 1.77778 11.1111H2.55556C2.96811 11.1111 3.36378 10.9472 3.6555 10.6555C3.94722 10.3638 4.11111 9.96811 4.11111 9.55556C4.11111 9.143 3.94722 8.74734 3.6555 8.45561C3.36378 8.16389 2.96811 8 2.55556 8H1.77778C1.5715 8 1.37367 7.91806 1.22781 7.77219C1.08194 7.62633 1 7.4285 1 7.22222V4.88889C1 4.68261 1.08194 4.48478 1.22781 4.33892C1.37367 4.19306 1.5715 4.11111 1.77778 4.11111"
+                                  stroke="#98CA1B"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+
+                              <p class="para-size ms-3">Filan Quiz</p>
+                              <a
+                                href="javascript:void(0)"
+                                class="btn btn-light ms-auto me-4"
+                              >
+                                <i class="far fa-question-circle me-3"></i>3
+                                questions
+                              </a>
+                              <a
+                                href="javascript:void(0)"
+                                class="btn btn-off-green"
+                              >
+                                <i class="far fa-clock me-3"></i>20 min
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Accordion Item -->
+                  <div class="accordion-item mt-4">
+                    <div class="accordion-header" id="headingTwo">
+                      <button
+                        class="accordion-button collapsed border-0 p-0 mb-4"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        <span
+                          class="d-flex w-100 justify-content-between align-items-center"
+                        >
+                          <span class="para-size font-bold"
+                            >Lesson Theme #2</span
+                          >
+                          <span class="quiz-progress ms-auto"
+                            ><span
+                              style="width: 0%"
+                              class="quiz-progress-bar"
+                            ></span
+                          ></span>
+                          <span class="para-size ms-3">0/3</span>
+                        </span>
+                      </button>
+                    </div>
+                    <div
+                      id="collapseTwo"
+                      class="accordion-collapse collapse border-0"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body p-0">
+                        <!-- Lessons -->
+                        <div class="lessons">
+                          <!-- Lesson Item -->
+                          <div
+                            class="lesson-item d-block w-100 py-3 border-bottom"
+                          >
+                            <div
+                              class="d-flex justify-content-between align-items-center"
+                            >
+                              <svg
+                                width="14"
+                                height="18"
+                                viewBox="0 0 14 18"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M8.71428 1V4.55556C8.71428 4.7913 8.80459 5.0174 8.96534 5.18409C9.12608 5.35079 9.3441 5.44444 9.57143 5.44444H13M8.71428 1H2.71429C2.25963 1 1.82359 1.1873 1.5021 1.5207C1.18061 1.8541 1 2.30628 1 2.77778V15.2222C1 15.6937 1.18061 16.1459 1.5021 16.4793C1.82359 16.8127 2.25963 17 2.71429 17H11.2857C11.7404 17 12.1764 16.8127 12.4979 16.4793C12.8194 16.1459 13 15.6937 13 15.2222L13 5.44444M8.71428 1L13 5.44444"
+                                  stroke="#98CA1B"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                              <p class="para-size ms-3">Lesson text #1</p>
+                              <a
+                                href="javascript:void(0)"
+                                class="btn btn-off-green ms-auto"
+                              >
+                                <i class="far fa-clock me-3"></i>20 min
+                              </a>
+                            </div>
+                          </div>
+                          <!-- Lesson Item -->
+                          <div
+                            class="lesson-item d-block w-100 py-3 border-bottom"
+                          >
+                            <div
+                              class="d-flex justify-content-between align-items-center"
+                            >
+                              <svg
+                                width="14"
+                                height="18"
+                                viewBox="0 0 14 18"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M8.71428 1V4.55556C8.71428 4.7913 8.80459 5.0174 8.96534 5.18409C9.12608 5.35079 9.3441 5.44444 9.57143 5.44444H13M8.71428 1H2.71429C2.25963 1 1.82359 1.1873 1.5021 1.5207C1.18061 1.8541 1 2.30628 1 2.77778V15.2222C1 15.6937 1.18061 16.1459 1.5021 16.4793C1.82359 16.8127 2.25963 17 2.71429 17H11.2857C11.7404 17 12.1764 16.8127 12.4979 16.4793C12.8194 16.1459 13 15.6937 13 15.2222L13 5.44444M8.71428 1L13 5.44444"
+                                  stroke="#98CA1B"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                              <p class="para-size ms-3">Lesson text #2</p>
+                              <a
+                                href="javascript:void(0)"
+                                class="btn btn-off-green ms-auto"
+                              >
+                                <i class="far fa-clock me-3"></i>20 min
+                              </a>
+                            </div>
+                          </div>
+                          <!-- Lesson Item -->
+                          <div class="lesson-item d-block w-100 py-3">
+                            <div
+                              class="d-flex justify-content-between align-items-center"
+                            >
+                              <svg
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M1.77778 4.11111H4.11111C4.31739 4.11111 4.51522 4.02917 4.66108 3.88331C4.80694 3.73744 4.88889 3.53961 4.88889 3.33333V2.55556C4.88889 2.143 5.05278 1.74733 5.3445 1.45561C5.63622 1.16389 6.03189 1 6.44444 1C6.857 1 7.25266 1.16389 7.54439 1.45561C7.83611 1.74733 8 2.143 8 2.55556V3.33333C8 3.53961 8.08194 3.73744 8.22781 3.88331C8.37367 4.02917 8.5715 4.11111 8.77778 4.11111H11.1111C11.3174 4.11111 11.5152 4.19306 11.6611 4.33892C11.8069 4.48478 11.8889 4.68261 11.8889 4.88889V7.22222C11.8889 7.4285 11.9708 7.62633 12.1167 7.77219C12.2626 7.91806 12.4604 8 12.6667 8H13.4444C13.857 8 14.2527 8.16389 14.5444 8.45561C14.8361 8.74734 15 9.143 15 9.55556C15 9.96811 14.8361 10.3638 14.5444 10.6555C14.2527 10.9472 13.857 11.1111 13.4444 11.1111H12.6667C12.4604 11.1111 12.2626 11.1931 12.1167 11.3389C11.9708 11.4848 11.8889 11.6826 11.8889 11.8889V14.2222C11.8889 14.4285 11.8069 14.6263 11.6611 14.7722C11.5152 14.9181 11.3174 15 11.1111 15H8.77778C8.5715 15 8.37367 14.9181 8.22781 14.7722C8.08194 14.6263 8 14.4285 8 14.2222V13.4444C8 13.0319 7.83611 12.6362 7.54439 12.3445C7.25266 12.0528 6.857 11.8889 6.44444 11.8889C6.03189 11.8889 5.63622 12.0528 5.3445 12.3445C5.05278 12.6362 4.88889 13.0319 4.88889 13.4444V14.2222C4.88889 14.4285 4.80694 14.6263 4.66108 14.7722C4.51522 14.9181 4.31739 15 4.11111 15H1.77778C1.5715 15 1.37367 14.9181 1.22781 14.7722C1.08194 14.6263 1 14.4285 1 14.2222V11.8889C1 11.6826 1.08194 11.4848 1.22781 11.3389C1.37367 11.1931 1.5715 11.1111 1.77778 11.1111H2.55556C2.96811 11.1111 3.36378 10.9472 3.6555 10.6555C3.94722 10.3638 4.11111 9.96811 4.11111 9.55556C4.11111 9.143 3.94722 8.74734 3.6555 8.45561C3.36378 8.16389 2.96811 8 2.55556 8H1.77778C1.5715 8 1.37367 7.91806 1.22781 7.77219C1.08194 7.62633 1 7.4285 1 7.22222V4.88889C1 4.68261 1.08194 4.48478 1.22781 4.33892C1.37367 4.19306 1.5715 4.11111 1.77778 4.11111"
+                                  stroke="#98CA1B"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+
+                              <p class="para-size ms-3">Filan Quiz</p>
+                              <a
+                                href="javascript:void(0)"
+                                class="btn btn-light ms-auto me-4"
+                              >
+                                <i class="far fa-question-circle me-3"></i>3
+                                questions
+                              </a>
+                              <a
+                                href="javascript:void(0)"
+                                class="btn btn-off-green"
+                              >
+                                <i class="far fa-clock me-3"></i>20 min
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Discussion Content -->
+              <div
+                class="tab-pane fade"
+                id="discussion"
+                role="tabpanel"
+                aria-labelledby="discussion-tab"
+              >
+                <!-- Author Comments -->
+                <div class="author-comments">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <h2>Comments</h2>
+                    <div class="right-side">
+                      <div class="d-flex align-items-center">
+                        <div class="flash">
+                          <a href="javascript:void(0)">
+                            <svg
+                              width="14"
+                              height="26"
+                              viewBox="0 0 14 26"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M4.36 7.6383L7.24 1V10.7021H13L11.56 14.7872M10.12 18.3617L7.24 25L7.24 15.8085H1L2.92 11.2128"
+                                stroke="#FFC807"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </a>
+                        </div>
+                        <div class="fire">
+                          <a href="javascript:void(0)">
+                            <svg
+                              width="20"
+                              height="26"
+                              viewBox="0 0 20 26"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M6.55536 20.7065C6.55536 23.6078 8.87642 24.3332 10.0369 24.3332C13.5185 24.3332 14.5133 20.7065 13.0212 18.8932C11.8275 17.4425 11.5291 15.8709 11.5291 15.2665C8.74378 15.9918 8.37905 17.9865 8.54484 18.8932L7.05273 18.4398C6.65483 19.1652 6.55536 20.2532 6.55536 20.7065Z"
+                                stroke="#CA1B1B"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                              <path
+                                d="M1.33301 15.7702C1.33301 21.8147 6.94085 24.3332 9.99967 24.3332C13.7593 24.3332 18.6663 20.8072 18.6663 15.7702C18.6663 11.7406 16.2873 9.05416 15.0977 8.21465C15.5056 10.6324 13.9082 10.9011 13.0585 10.7332C11.6108 10.4471 11.6191 8.79014 11.9889 7.31226C12.2629 6.21758 12.6449 5.06481 12.1634 4.04244C11.6114 2.87017 10.5961 2.02011 9.99967 1.6665C9.99967 3.17762 9.48987 5.19243 7.45065 6.19984C5.41144 7.20724 5.92124 9.22206 6.43105 10.2295C6.94085 11.2369 6.43105 12.748 4.90164 12.748C3.67811 12.748 3.03235 11.4048 2.86242 10.7332C1.63889 11.9421 1.33301 14.5949 1.33301 15.7702Z"
+                                stroke="#CA1B1B"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </a>
+                        </div>
+                        <div
+                          class="nice-select nice-select-comment ps-3 text-center position-relative"
+                          tabindex="0"
+                        >
+                          <span class="current">Oldest</span>
+                          <ul class="list text-center">
+                            <li data-value="1" class="option selected">
+                              Oldest
+                            </li>
+                            <li data-value="2" class="option">Newest</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="author-comment mt-4">
+                    <div class="d-flex">
+                      <div class="me-4">
+                        <img
+                          style="width: 4.8rem"
+                          src="../../img/author-1.png"
+                          alt="author"
+                        />
+                      </div>
+                      <div class="flex-1">
+                        <div class="d-md-flex align-items-center">
+                          <p class="para-size author-name font-bold">
+                            Author Name
+                          </p>
+                          <div class="comments-time ms-md-5">
+                            <p class="para-size">
+                              <i class="far fa-clock me-2"></i>15 days ago
+                            </p>
+                          </div>
+                        </div>
+                        <p class="para-size mt-3">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Neque velit quam neque egestas sed. Dignissim
+                          egestas dui enim volutpat. Vel in urna, imperdiet
+                          gravida bibendum. Sed mi pretium vitae praesent vitae
+                          porttitor dui sed cras.
+                        </p>
+                        <!-- Plus-Minus Reply Box -->
+                        <div class="plus-minus-reply d-flex mt-2">
+                          <div class="plus-minus">
+                            <span class="plus">+</span>
+                            <span class="plus-minus-number">1</span>
+                            <span class="minus"> - </span>
+                          </div>
+                          <div class="reply ms-auto">
+                            <div class="d-flex">
+                              <i
+                                style="color: #98ca1b"
+                                class="fas fa-reply para-size align-self-center me-3"
+                              ></i>
+                              <p
+                                style="color: #98ca1b"
+                                class="para-size font-bold"
+                              >
+                                Reply
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="author-comment mt-4">
+                    <div class="d-flex">
+                      <div class="me-4">
+                        <img
+                          style="width: 4.8rem"
+                          src="../../img/author-2.png"
+                          alt="author"
+                        />
+                      </div>
+                      <div class="flex-1">
+                        <div class="d-md-flex align-items-center">
+                          <p class="para-size author-name font-bold">
+                            Author Name
+                          </p>
+                          <div class="comments-time ms-md-5">
+                            <p class="para-size">
+                              <i class="far fa-clock me-2"></i>15 days ago
+                            </p>
+                          </div>
+                        </div>
+                        <p class="para-size mt-3">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Neque velit quam neque egestas sed. Dignissim
+                          egestas dui enim volutpat. Vel in urna, imperdiet
+                          gravida bibendum. Sed mi pretium vitae praesent vitae
+                          porttitor dui sed cras.
+                        </p>
+                        <!-- Plus-Minus Reply Box -->
+                        <div class="plus-minus-reply d-flex mt-2">
+                          <div class="plus-minus">
+                            <span class="plus">+</span>
+                            <span class="plus-minus-number">1</span>
+                            <span class="minus"> - </span>
+                          </div>
+                          <div class="reply ms-auto">
+                            <div class="d-flex">
+                              <i
+                                style="color: #98ca1b"
+                                class="fas fa-reply para-size align-self-center me-3"
+                              ></i>
+                              <p
+                                style="color: #98ca1b"
+                                class="para-size font-bold"
+                              >
+                                Reply
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Subscribe -->
+                  <div class="subscribe py-3 border-bottom">
+                    <p class="para-size">
+                      <i class="far fa-envelope"></i>
+                      <span class="mx-2 font-bold">Subscribe</span>
+                      <i class="fa fa-angle-down"></i>
+                    </p>
+                  </div>
+                  <!-- Leave A reply -->
+                  <div class="author-reply-box mt-4">
+                    <h2>Leave a Reply</h2>
+                    <div class="author-reply mt-4">
+                      <form action="javascript:void(0)" class="d-flex">
+                        <div class="user-img author-reply-img me-4">
+                          <svg
+                            class="img-fluid"
+                            width="32"
+                            height="36"
+                            viewBox="0 0 32 36"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M3.59708 29.2803C0.39911 30.2071 -0.119858 33.5284 0.0204034 35.0732V36H31.9796V35.0732C32.1197 33.5182 31.6014 30.175 28.4073 29.242C25.2132 28.309 21.893 27.2982 20.6322 26.9095L20.4221 24.1105C21.1225 23.644 22.6075 21.9646 22.9437 18.979C23.5741 19.2122 25.1712 18.5592 25.6755 15.9468C26.3059 12.6813 25.2552 12.448 24.2046 12.9145C24.5589 11.3411 25.0991 7.86989 24.4259 6.57229L23.3739 4.71858C23.5142 4.79581 23.963 5.13566 24.6363 5.87715C24.5661 4.95029 24.0051 3.05023 22.3219 2.86486C22.1116 2.86486 21.5645 2.9112 21.0596 3.09657C20.6388 1.86076 19.2081 -0.471857 16.8517 0.0842583C16.0102 0.315949 15.0283 0.238735 14.5374 0.0842583C14.8741 0.640373 15.6595 0.779402 16.0102 0.779402C15.8699 0.856635 15.2528 0.918415 13.9062 0.547672C12.5597 0.176928 10.1192 1.47454 9.06722 2.16969C9.90879 1.98432 10.6802 2.09245 10.9608 2.16969C10.4698 2.32417 9.15137 3.09655 7.80486 4.95027C6.45835 6.80398 7.24382 11.1293 7.80486 13.0603C6.7529 12.5968 5.70094 12.8286 6.33212 16.0726C6.83706 18.6678 8.43604 19.3166 9.06722 19.0848C9.40385 22.0508 10.8906 23.7191 11.5919 24.1826L11.3815 26.9631C10.1192 27.3493 6.79504 28.3534 3.59708 29.2803Z"
+                              fill="#B2B2B2"
+                            />
+                          </svg>
+                        </div>
+                        <div class="leave-a-reply-box flex-1">
+                          <textarea
+                            class="comment-box w-100 form-control border-0"
+                            placeholder="Input Text"
+                          ></textarea>
+                          <fieldset class="font-styles d-flex">
+                            <button><b>B</b></button>
+                            <button><i class="fas fa-italic"></i></button>
+                            <button><u>U</u></button>
+                            <button>$</button>
+                            <button><i class="fas fa-link"></i></button>
+                            <button>
+                              <i class="fas fa-quote-right"></i>
+                            </button>
+                            <button><i class="far fa-eye"></i></button>
+                            <button>∑</button>
+                          </fieldset>
+                        </div>
+                        <div class="button-box text-center mt-5 d-block w-100">
+                          <button
+                            class="btn btn-outline-off-green font-bold px-5 py-3"
+                          >
+                            Submit
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Instructor Info Content -->
+              <div
+                class="tab-pane fade"
+                id="instructor-info"
+                role="tabpanel"
+                aria-labelledby="instructor-info-tab"
+              >
+                <div class="instructor-info">
+                  <div class="d-block d-md-flex">
+                    <div class="text-center w-100 w-md-25">
+                      <img
+                        src="../../img/ui-ux-mentor.png"
+                        alt="instructor"
+                        class="img-fluid w-max-sm-50"
+                      />
+                      <p
+                        style="color: #1a1a1a"
+                        class="para-size font-bold mt-3"
+                      >
+                        Cameron Williamson
+                      </p>
+                      <p style="color: #999999" class="para-size mt-4">
+                        UX Designer
+                      </p>
+                      <div class="instructor-social-profile mt-3">
+                        <a href="javascript:void(0)"
+                          ><i class="fab fa-facebook-square"></i
+                        ></a>
+                        <a href="javascript:void(0)"
+                          ><i class="fab fa-linkedin"></i
+                        ></a>
+                        <a href="javascript:void(0)"
+                          ><i class="fab fa-twitter-square"></i
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="w-100 w-md-75 ps-md-5 mt-5 mt-md-0">
+                      <div class="biography">
+                        <h2>Biography</h2>
+                        <p class="para-size mt-4">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Neque velit quam neque egestas sed. Dignissim
+                          egestas dui enim volutpat. Vel in urna, imperdiet
+                          gravida bibendum. Sed mi pretium vitae praesent vitae
+                          porttitor dui sed cras. Enim non sollicitudin nullam
+                          rhoncus pretium, in. Quisque fringilla vitae et in.
+                          Proin ut elementum ullamcorper eget sit viverra
+                          mattis. Habitant elementum amet fames lacus dignissim
+                          et rutrum. Sapien id ultrices sed scelerisque vitae
+                          nam praesent orci amet. Ut cursus purus, auctor
+                          volutpat adipiscing tempus varius massa. Nec interdum
+                          non nec gravida quisque proin urna volutpat. Tortor
+                          elit varius volutpat sit sollicitudin ac venenatis ac
+                          porttitor. Nibh ac nulla sit blandit dolor.
+                        </p>
+                      </div>
+                      <div class="instructor-contact-info mt-5">
+                        <h2>Contact Information</h2>
+                        <div class="d-flex email mt-4">
+                          <i class="far fa-envelope me-4 align-self-center"></i>
+                          <div class="media-body align-self-center">
+                            <p class="para-size">CameronWilliamson@gmail.com</p>
+                          </div>
+                        </div>
+                        <div class="d-flex phone-number mt-4">
+                          <i
+                            class="fas fa-phone-alt me-4 align-self-center"
+                          ></i>
+                          <div class="media-body align-self-center">
+                            <p class="para-size">+12 2329 192 2</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Review Content -->
+              <div
+                class="tab-pane fade"
+                id="reviews"
+                role="tabpanel"
+                aria-labelledby="reviews-tab"
+              >
+                <!-- Course Ratings -->
+                <div class="course-rating">
+                  <h2>Course Rating</h2>
+                  <div class="rating mt-4">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <p class="para-size mt-3">4.75 avarage based on 4 rating</p>
+                  <div class="reviews-progress-main my-4">
+                    <!-- 5 Star Progress Box -->
+                    <div
+                      class="reviews-progress-box d-flex justify-content-between align-items-center"
+                    >
+                      <p class="para-size font-bold">5 Star</p>
+                      <div class="review-progress-bar px-4">
+                        <div class="progress">
+                          <div
+                            class="progress-bar"
+                            role="progressbar"
+                            style="width: 25%"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </div>
+                      <p class="para-size">25%</p>
+                    </div>
+                    <!-- 4 Star Progress Box -->
+                    <div
+                      class="reviews-progress-box mt-3 d-flex justify-content-between align-items-center"
+                    >
+                      <p class="para-size font-bold">4 Star</p>
+                      <div class="review-progress-bar px-4">
+                        <div class="progress">
+                          <div
+                            class="progress-bar"
+                            role="progressbar"
+                            style="width: 75%"
+                            aria-valuenow="75"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </div>
+                      <p class="para-size">75%</p>
+                    </div>
+                    <!-- 3 Star Progress Box -->
+                    <div
+                      class="reviews-progress-box mt-3 d-flex justify-content-between align-items-center"
+                    >
+                      <p class="para-size font-bold">3 Star</p>
+                      <div class="review-progress-bar px-4">
+                        <div class="progress">
+                          <div
+                            class="progress-bar"
+                            role="progressbar"
+                            style="width: 0%"
+                            aria-valuenow="0"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </div>
+                      <p class="para-size">00%</p>
+                    </div>
+                    <!-- 2 Star Progress Box -->
+                    <div
+                      class="reviews-progress-box mt-3 d-flex justify-content-between align-items-center"
+                    >
+                      <p class="para-size font-bold">2 Star</p>
+                      <div class="review-progress-bar px-4">
+                        <div class="progress">
+                          <div
+                            class="progress-bar"
+                            role="progressbar"
+                            style="width: 0%"
+                            aria-valuenow="0"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </div>
+                      <p class="para-size">00%</p>
+                    </div>
+                    <!-- 1 Star Progress Box -->
+                    <div
+                      class="reviews-progress-box mt-3 d-flex justify-content-between align-items-center"
+                    >
+                      <p class="para-size font-bold">1 Star</p>
+                      <div class="review-progress-bar px-4">
+                        <div class="progress">
+                          <div
+                            class="progress-bar"
+                            role="progressbar"
+                            style="width: 0%"
+                            aria-valuenow="0"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </div>
+                      <p class="para-size">00%</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Author Reviews -->
+                <div class="author-reviews">
+                  <h2>Reviews</h2>
+                  <div class="author-review mt-4">
+                    <div class="d-flex">
+                      <div class="me-4">
+                        <img
+                          style="width: 4.8rem"
+                          src="../../img/author-1.png"
+                          alt="author"
+                        />
+                      </div>
+                      <div class="flex-1">
+                        <p class="para-size author-name font-bold">
+                          Author Name
+                        </p>
+                        <div class="rating mt-2">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                        <p class="para-size mt-3 font-bold">Awesome Course</p>
+                        <p class="para-size mt-3">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Neque velit quam neque egestas sed. Dignissim
+                          egestas dui enim volutpat. Vel in urna, imperdiet
+                          gravida bibendum. Sed mi pretium vitae praesent vitae
+                          porttitor dui sed cras.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="author-review mt-4">
+                    <div class="d-flex">
+                      <div class="me-4">
+                        <img
+                          style="width: 4.8rem"
+                          src="../../img/author-2.png"
+                          alt="author"
+                        />
+                      </div>
+                      <div class="flex-1">
+                        <p class="para-size author-name font-bold">
+                          Author Name
+                        </p>
+                        <div class="rating mt-2">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <p class="para-size mt-3 font-bold">Awesome Course</p>
+                        <p class="para-size mt-3">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Neque velit quam neque egestas sed. Dignissim
+                          egestas dui enim volutpat. Vel in urna, imperdiet
+                          gravida bibendum. Sed mi pretium vitae praesent vitae
+                          porttitor dui sed cras.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Write A Review Button -->
+                <div class="button-box mt-5 text-center">
+                  <button
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"
+                    class="btn btn-off-green font-bold py-2 px-5"
+                  >
+                    Write a Review
+                  </button>
+                </div>
+                <!-- Write A Review Modal -->
+                <div
+                  class="modal fade write-a-review-modal"
+                  id="staticBackdrop"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header border-0">
+                        <h2 class="modal-title" id="staticBackdropLabel">
+                          Write a Review
+                        </h2>
+                        <button
+                          style="font-size: 1.4rem"
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <form
+                        action="javascript:void(0)"
+                        class="needs-validation"
+                        novalidate
+                      >
+                        <div class="modal-body">
+                          <div class="row gy-4">
+                            <div class="col-12">
+                              <label class="para-size">
+                                Title<span style="color: #f24923">*</span>
+                              </label>
+                              <input
+                                class="form-control"
+                                type="text"
+                                id="validationCustom01"
+                                required
+                              />
+                            </div>
+                            <div class="col-12">
+                              <label class="para-size"> Comment </label>
+                              <textarea
+                                class="form-control review-comment align-top"
+                              ></textarea>
+                            </div>
+                            <!-- Give  a rating -->
+                            <div class="col-12">
+                              <label class="para-size">
+                                Rating<span style="color: #f24923">*</span>
+                              </label>
+                              <div class="stars d-flex give-a-review p-0">
+                                <div class="star1">
+                                  <i class="far fa-star star-icon-1"></i>
+                                </div>
+                                <div class="star2">
+                                  <i class="far fa-star star-icon-2"></i>
+                                </div>
+                                <div class="star3">
+                                  <i class="far fa-star star-icon-3"></i>
+                                </div>
+                                <div class="star4">
+                                  <i class="far fa-star star-icon-4"></i>
+                                </div>
+                                <div class="star5">
+                                  <i class="far fa-star star-icon-5"></i>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer border-0">
+                          <div class="row w-100">
+                            <div class="col-6 ps-0">
+                              <button
+                                type="button"
+                                class="btn btn-outline-off-green py-2 font-bold w-100 btn-block"
+                                data-bs-dismiss="modal"
+                              >
+                                Cencel
+                              </button>
+                            </div>
+                            <div class="col-6 pe-0">
+                              <button
+                                type="submit"
+                                class="btn btn-off-green py-2 w-100 font-bold btn-block"
+                              >
+                                Add Review
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- For Desktop -->
+          <div class="col-lg-4 d-none d-lg-block">
+            <!-- Course Includes -->
+            <div class="course-includes-box">
+              <h3>Course Includes:</h3>
+              <div class="course-includes-items">
+                <div
+                  class="course-includes-item py-4 border-bottom d-flex justify-content-between align-items-center"
+                >
+                  <svg
+                    viewBox="0 0 16 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.99967 11.8333C6.98621 11.2367 5.83659 10.9226 4.66634 10.9226C3.4961 10.9226 2.34647 11.2367 1.33301 11.8333V1.91077C2.34647 1.31411 3.4961 1 4.66634 1C5.83659 1 6.98621 1.31411 7.99967 1.91077M7.99967 11.8333C9.01314 11.2367 10.1628 10.9226 11.333 10.9226C12.5033 10.9226 13.6529 11.2367 14.6663 11.8333V1.91077C13.6529 1.31411 12.5033 1 11.333 1C10.1628 1 9.01314 1.31411 7.99967 1.91077M7.99967 11.8333V1.91077"
+                      stroke="#666666"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <p class="para-size ms-2">Lessons</p>
+                  <p
+                    style="font-weight: 700; color: #000000"
+                    class="quantity para-size ms-auto"
+                  >
+                    3
+                  </p>
+                </div>
+                <div
+                  class="course-includes-item py-4 border-bottom d-flex justify-content-between align-items-center"
+                >
+                  <svg
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.00033 3.75922V6.99996L8.94477 8.9444M12.8337 6.99996C12.8337 10.2216 10.222 12.8333 7.00033 12.8333C3.77866 12.8333 1.16699 10.2216 1.16699 6.99996C1.16699 3.7783 3.77866 1.16663 7.00033 1.16663C10.222 1.16663 12.8337 3.7783 12.8337 6.99996Z"
+                      stroke="#666666"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+
+                  <p class="para-size ms-2">Duration</p>
+                  <p
+                    style="font-weight: 700; color: #000000"
+                    class="quantity para-size ms-auto"
+                  >
+                    7 weeks
+                  </p>
+                </div>
+                <div
+                  class="course-includes-item py-4 border-bottom d-flex justify-content-between align-items-center"
+                >
+                  <svg
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.81514 3.75922H3.75959C3.93148 3.75922 4.09634 3.69093 4.2179 3.56938C4.33945 3.44783 4.40773 3.28297 4.40773 3.11107V2.46292C4.40773 2.11912 4.54431 1.78941 4.78741 1.5463C5.03051 1.3032 5.36023 1.16663 5.70403 1.16663C6.04783 1.16663 6.37755 1.3032 6.62065 1.5463C6.86375 1.78941 7.00033 2.11912 7.00033 2.46292V3.11107C7.00033 3.28297 7.06861 3.44783 7.19016 3.56938C7.31172 3.69093 7.47657 3.75922 7.64847 3.75922H9.59292C9.76482 3.75922 9.92968 3.82751 10.0512 3.94906C10.1728 4.07061 10.2411 4.23547 10.2411 4.40737V6.35181C10.2411 6.52371 10.3094 6.68857 10.4309 6.81012C10.5525 6.93167 10.7173 6.99996 10.8892 6.99996H11.5374C11.8812 6.99996 12.2109 7.13653 12.454 7.37964C12.6971 7.62274 12.8337 7.95246 12.8337 8.29626C12.8337 8.64006 12.6971 8.96977 12.454 9.21288C12.2109 9.45598 11.8812 9.59255 11.5374 9.59255H10.8892C10.7173 9.59255 10.5525 9.66084 10.4309 9.78239C10.3094 9.90394 10.2411 10.0688 10.2411 10.2407V12.1851C10.2411 12.357 10.1728 12.5219 10.0512 12.6435C9.92968 12.765 9.76482 12.8333 9.59292 12.8333H7.64847C7.47657 12.8333 7.31172 12.765 7.19016 12.6435C7.06861 12.5219 7.00033 12.357 7.00033 12.1851V11.537C7.00033 11.1932 6.86375 10.8635 6.62065 10.6204C6.37755 10.3773 6.04783 10.2407 5.70403 10.2407C5.36023 10.2407 5.03051 10.3773 4.78741 10.6204C4.54431 10.8635 4.40773 11.1932 4.40773 11.537V12.1851C4.40773 12.357 4.33945 12.5219 4.2179 12.6435C4.09634 12.765 3.93148 12.8333 3.75959 12.8333H1.81514C1.64324 12.8333 1.47838 12.765 1.35683 12.6435C1.23528 12.5219 1.16699 12.357 1.16699 12.1851V10.2407C1.16699 10.0688 1.23528 9.90394 1.35683 9.78239C1.47838 9.66084 1.64324 9.59255 1.81514 9.59255H2.46329C2.80709 9.59255 3.13681 9.45598 3.37991 9.21288C3.62301 8.96977 3.75959 8.64006 3.75959 8.29626C3.75959 7.95246 3.62301 7.62274 3.37991 7.37964C3.13681 7.13653 2.80709 6.99996 2.46329 6.99996H1.81514C1.64324 6.99996 1.47838 6.93167 1.35683 6.81012C1.23528 6.68857 1.16699 6.52371 1.16699 6.35181V4.40737C1.16699 4.23547 1.23528 4.07061 1.35683 3.94906C1.47838 3.82751 1.64324 3.75922 1.81514 3.75922"
+                      stroke="#666666"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+
+                  <p class="para-size ms-2">Quizzes</p>
+                  <p
+                    style="font-weight: 700; color: #000000"
+                    class="quantity para-size ms-auto"
+                  >
+                    2
+                  </p>
+                </div>
+                <div
+                  class="course-includes-item py-4 border-bottom d-flex justify-content-between align-items-center"
+                >
+                  <svg
+                    viewBox="0 0 12 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.125 5.375L6 7.25L11 2.25M11 6V9.75C11 10.0815 10.8683 10.3995 10.6339 10.6339C10.3995 10.8683 10.0815 11 9.75 11H2.25C1.91848 11 1.60054 10.8683 1.36612 10.6339C1.1317 10.3995 1 10.0815 1 9.75V2.25C1 1.91848 1.1317 1.60054 1.36612 1.36612C1.60054 1.1317 1.91848 1 2.25 1H7.875"
+                      stroke="#666666"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+
+                  <p class="para-size ms-2">Assessments</p>
+                  <p
+                    style="font-weight: 700; color: #000000"
+                    class="quantity para-size ms-auto"
+                  >
+                    Yes
+                  </p>
+                </div>
+                <div
+                  class="course-includes-item py-4 d-flex justify-content-between align-items-center"
+                >
+                  <svg
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.64849 9.74504V12.8333L8.94478 11.8039L10.2411 12.8333V9.74504M5.70403 10.7745H2.46329C2.11949 10.7745 1.78977 10.6299 1.54667 10.3725C1.30357 10.1151 1.16699 9.76599 1.16699 9.40196V2.53918C1.16699 1.78428 1.75033 1.16663 2.46329 1.16663H11.5374C11.8812 1.16663 12.2109 1.31123 12.454 1.56864C12.6971 1.82604 12.8337 2.17516 12.8337 2.53918V9.40196C12.8334 9.64266 12.7734 9.87906 12.6597 10.0874C12.5459 10.2958 12.3824 10.4689 12.1855 10.5892M3.11144 3.91171H10.8892M3.11144 5.97054H5.05588M3.11144 8.02938H4.40773M10.8892 8.02938C10.8892 9.16644 10.0187 10.0882 8.94477 10.0882C7.87088 10.0882 7.00033 9.16644 7.00033 8.02938C7.00033 6.89231 7.87088 5.97054 8.94477 5.97054C10.0187 5.97054 10.8892 6.89231 10.8892 8.02938Z"
+                      stroke="#666666"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+
+                  <p class="para-size ms-2">Course Certificate</p>
+                  <p
+                    style="font-weight: 700; color: #000000"
+                    class="quantity para-size ms-auto"
+                  ></p>
+                </div>
+              </div>
+              <!-- Course Start Now Button -->
+              <div class="button-box mt-4">
+                <a
+                  class="btn btn-off-green font-bold btn-block w-100 py-2"
+                  href="javascript:void(0)"
+                  >Start Course</a
+                >
+              </div>
+              <!-- Share This Course Button -->
+              <div
+                class="button-box mt-3 d-flex justify-content-center align-items-center"
+              >
+                <svg
+                  width="17"
+                  height="16"
+                  viewBox="0 0 17 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.93331 6.98887L11.0666 4.34443M5.93331 9.0111L11.0666 11.6555M6.16667 8C6.16667 9.28866 5.122 10.3333 3.83333 10.3333C2.54467 10.3333 1.5 9.28866 1.5 8C1.5 6.71134 2.54467 5.66667 3.83333 5.66667C5.122 5.66667 6.16667 6.71134 6.16667 8ZM15.5 3.33333C15.5 4.622 14.4553 5.66667 13.1667 5.66667C11.878 5.66667 10.8333 4.622 10.8333 3.33333C10.8333 2.04467 11.878 1 13.1667 1C14.4553 1 15.5 2.04467 15.5 3.33333ZM15.5 12.6667C15.5 13.9553 14.4553 15 13.1667 15C11.878 15 10.8333 13.9553 10.8333 12.6667C10.8333 11.378 11.878 10.3333 13.1667 10.3333C14.4553 10.3333 15.5 11.378 15.5 12.6667Z"
+                    stroke="#98CA1B"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+
+                <a
+                  style="color: #98ca1b"
+                  class="btn py-2 font-bold"
+                  href="javascript:void(0)"
+                  >Share This Course</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====================================== End About Course Section Here ====================================== -->
+
+    <!-- ====================================== Start Footer Section Here ====================================== -->
+    <footer>
+      <div class="container">
+        <!-- Footer Widget -->
+        <div class="footer-widget border-bottom pb-5">
+          <div class="d-flex justify-content-end align-items-center">
+            <div class="footer-item">
+              <a href="javascript:void(0)">Terms & Conditions</a>
+            </div>
+            <div class="footer-item">
+              <a href="javascript:void(0)">Privacy Policy</a>
+            </div>
+            <div class="footer-item">
+              <a href="javascript:void(0)">Sitemap</a>
+            </div>
+            <div class="footer-item text-center me-0">
+              <div
+                class="nice-select nice-select-footer text-white text-center position-relative"
+                tabindex="0"
+              >
+                <i class="fas fa-globe global-icon position-absolute"></i>
+                <span class="current">English</span>
+                <ul class="list text-center">
+                  <li data-value="1" class="option selected">English</li>
+                  <li data-value="2" class="option">Bengali</li>
+                  <li data-value="3" class="option">Arabic</li>
+                  <li data-value="4" class="option">Hindi</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Footer Copyright -->
+        <div class="copyright pt-5">
+          <div class="row g-4 justify-content-between align-items-center">
+            <div class="col-md-6 text-center text-md-start">
+              <a class="footer-logo" href="../../index.html"
+                ><img src="../../img/footer-logo.png" alt="logo"
+              /></a>
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              <p class="para-size text-white">
+                2020. CyberX. All Right Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ====================================== End Footer Section Here ====================================== -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JQUERY -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Nice Select -->
+    <script src="../../js/jquery.nice-select.min.js"></script>
+    <!-- Main JS -->
+    <script src="../../js/main.js"></script>
+    <!-- Additional JS File -->
+    <script src="../../js/courses.js"></script>
+  </body>
+</html>

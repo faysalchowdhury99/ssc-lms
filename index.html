@@ -1,0 +1,1661 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <!-- Title & Favicon -->
+    <title>SSC LMS</title>
+    <!-- CSS Link -->
+    <!-- Nice Select CSS -->
+    <link rel="stylesheet" href="css/nice-select.css" />
+    <!-- Swiper Slider -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- ====================================== Start Header Section Here====================================== -->
+    <header id="header-section">
+      <!-- Navbar For Mobile -->
+      <div class="js-side-nav-container side-nav-container d-lg-none">
+        <div class="js-side-nav side-nav">
+          <div class="js-menu-close menu-close text-end d-block mt-4 me-4">
+            <i class="material-icons fa fa-times fa-2x text-danger"></i>
+          </div>
+          <div class="mobile-menus">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="javascript:void(0)"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Courses</a>
+              </li>
+              <li class="nav-item mobile-menu-item">
+                <a
+                  class="btn nav-button px-3 py-2 m-0 text-white"
+                  href="javascript:void(0)"
+                  >Login</a
+                >
+              </li>
+              <li class="nav-item mobile-menu-item">
+                <a
+                  class="btn nav-button text-white px-3 py-2 m-0"
+                  href="javascript:void(0)"
+                  >Sing Up</a
+                >
+              </li>
+            </ul>
+
+            <!-- Search Box -->
+            <div class="search-box bg-white border rounded mobile-menu-item">
+              <form
+                action="javascript:void(0)"
+                class="d-flex justify-content-between"
+              >
+                <input
+                  class="search-input border-0 w-100"
+                  type="text"
+                  name="search"
+                  placeholder="Search Here"
+                />
+                <button class="submit-search text-center border-0">
+                  <i class="fa fa-search"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Navbar For Desktop -->
+      <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            ><img src="img/logotype.png" alt="logo"
+          /></a>
+          <!-- Select Option For Mobile -->
+          <select class="border-0 d-lg-none p-0 pe-5 me-4">
+            <option value="1">Title</option>
+            <option value="2">Title</option>
+            <option value="3">Title</option>
+            <option value="4">Title</option>
+          </select>
+          <button class="border-0 js-menu-open menu-open d-lg-none">
+            <i class="material-icons fa fa-bars text-dark"></i>
+          </button>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link"><span>SSC LMS</span></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="javascript:void(0)"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Courses</a>
+              </li>
+            </ul>
+            <!-- Search Box -->
+            <div class="d-flex align-items-center">
+              <div
+                id="search-box"
+                class="search-box bg-white border rounded position-absolute search-box-transform"
+              >
+                <form action="javascript:void(0)" class="d-flex">
+                  <input
+                    class="search-input border-0"
+                    type="text"
+                    name="search"
+                    placeholder="Search Here"
+                  />
+                  <button class="submit-search text-center border-0">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+            <select class="border-0">
+              <option value="1">Title</option>
+              <option value="2">Title</option>
+              <option value="3">Title</option>
+              <option value="4">Title</option>
+            </select>
+            <button class="search-btn border-0">
+              <span class="d-block" style="width: 7rem">
+                <i class="fa fa-search search-icon"></i>
+              </span>
+            </button>
+            <a
+              class="btn nav-button nav-login-btn px-3 py-2"
+              href="javascript:void(0)"
+              >Login</a
+            >
+            <a
+              class="btn nav-button text-white px-3 py-2"
+              href="javascript:void(0)"
+              >Sing Up</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- ====================================== End Header Section Here ====================================== -->
+
+    <!-- ====================================== Start Banner Section Here ====================================== -->
+    <section id="banner-section">
+      <div class="container">
+        <div class="banner-content">
+          <div class="row">
+            <div class="col-lg-7">
+              <h1 class="text-white">
+                The Best Online<br />
+                Education Platform
+              </h1>
+              <p class="para-size text-white my-4">
+                Build skills with courses and certificates
+              </p>
+              <div class="btn-box mt-5">
+                <a
+                  class="btn btn-outline-light px-5 py-3"
+                  href="javascript:void(0)"
+                  >Get Started</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="info-card-box">
+          <div class="row g-4 justify-content-center">
+            <div class="col-sm-6 col-lg-4">
+              <div class="info-card">
+                <img src="img/info-icon-1.png" alt="info-icon" />
+                <p class="para-size mt-3 text-white">2500+ Online Courses</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="info-card">
+                <img src="img/info-icon-2.png" alt="info-icon" />
+                <p class="para-size mt-3 text-white">Expert Instruction</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="info-card">
+                <img src="img/info-icon-3.png" alt="info-icon" />
+                <p class="para-size mt-3 text-white">Lifetime Access</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====================================== End Banner Section Here ====================================== -->
+
+    <!-- ====================================== Start Popular Course Section Here ====================================== -->
+    <section id="popular-course-section">
+      <div class="container-fluid">
+        <div class="row gy-5">
+          <div
+            class="col-xl-4 col-xxl-5 text-center text-xl-start align-self-center popular-course-left-content"
+          >
+            <!-- Popular Course Left Content -->
+            <h2 class="heading">Our Popular Courses</h2>
+            <p class="para-size my-4">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae.
+            </p>
+            <!-- Swiper Next,Prev Arrows -->
+            <div class="d-none d-xl-block mt-4 pt-3">
+              <div class="swiper-arrows d-flex">
+                <img
+                  class="swiper-arrow-prev me-5"
+                  src="img/slider-arrow-prev.png"
+                  alt="prev"
+                />
+                <img
+                  class="swiper-arrow-next"
+                  src="img/slider-arrow-next.png"
+                  alt="next"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- Slides -->
+          <div class="col-xl-8 col-xxl-7 p-0 popular-course-right-content">
+            <div class="swiper-container position-relative">
+              <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+                  <div class="card course-card">
+                    <img
+                      src="img/course-img-4.png"
+                      alt="course"
+                      class="card-img-top"
+                    />
+                    <div class="card-body bg-white p-4">
+                      <h3 class="card-title course-card-heading">
+                        Some large title for this course with custom information
+                      </h3>
+                      <div class="media d-flex mentor-info my-3">
+                        <img
+                          class="me-4 align-self-center"
+                          src="img/mentor-4.png"
+                          alt="mentor"
+                        />
+                        <div class="media-body align-self-center">
+                          <p style="color: #333333" class="para-size">
+                            Bessie Cooper
+                          </p>
+                        </div>
+                      </div>
+                      <div class="course-review d-flex">
+                        <div class="star align-self-center me-3">
+                          <i class="fas fa-star"></i><i class="fas fa-star"></i
+                          ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                          ><i class="fas fa-star no-color"></i>
+                        </div>
+                        <p class="para-size align-self-center">(124)</p>
+                      </div>
+                    </div>
+                    <div class="card-body p-4 course-info border-top">
+                      <div class="d-flex">
+                        <div class="time align-self-center me-4">
+                          <div class="media d-flex">
+                            <i class="far fa-clock align-self-center me-3"></i>
+                            <p class="para-size align-self-center">2h 30m</p>
+                          </div>
+                        </div>
+                        <div class="lesson align-self-center me-4">
+                          <div class="media d-flex">
+                            <i
+                              class="fas fa-book-open align-self-center me-3"
+                            ></i>
+                            <p class="para-size align-self-center">1 Lesson</p>
+                          </div>
+                        </div>
+                        <div class="button-box ms-auto">
+                          <a
+                            class="btn px-4 py-2 btn-outline-off-green"
+                            href="javascript:void(0)"
+                            >Start Now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="swiper-slide">
+                  <div class="card course-card">
+                    <img
+                      src="img/course-img-3.png"
+                      alt="course"
+                      class="card-img-top"
+                    />
+                    <div class="card-body bg-white p-4">
+                      <h3 class="card-title course-card-heading">
+                        Some large title for this course with custom information
+                      </h3>
+                      <div class="media d-flex mentor-info my-3">
+                        <img
+                          class="me-4 align-self-center"
+                          src="img/mentor-3.png"
+                          alt="mentor"
+                        />
+                        <div class="media-body align-self-center">
+                          <p style="color: #333333" class="para-size">
+                            Albert Flores
+                          </p>
+                        </div>
+                      </div>
+                      <div class="course-review d-flex">
+                        <div class="star align-self-center me-3">
+                          <i class="fas fa-star"></i><i class="fas fa-star"></i
+                          ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                          ><i class="fas fa-star no-color"></i>
+                        </div>
+                        <p class="para-size align-self-center">(124)</p>
+                      </div>
+                    </div>
+                    <div class="card-body p-4 course-info border-top">
+                      <div class="d-flex">
+                        <div class="time align-self-center me-4">
+                          <div class="media d-flex">
+                            <i class="far fa-clock align-self-center me-3"></i>
+                            <p class="para-size align-self-center">2h 30m</p>
+                          </div>
+                        </div>
+                        <div class="lesson align-self-center me-4">
+                          <div class="media d-flex">
+                            <i
+                              class="fas fa-book-open align-self-center me-3"
+                            ></i>
+                            <p class="para-size align-self-center">1 Lesson</p>
+                          </div>
+                        </div>
+                        <div class="button-box ms-auto">
+                          <a
+                            class="btn px-4 py-2 btn-outline-off-green"
+                            href="javascript:void(0)"
+                            >Start Now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="swiper-slide">
+                  <div class="card course-card">
+                    <img
+                      src="img/course-img-6.png"
+                      alt="course"
+                      class="card-img-top"
+                    />
+                    <div class="card-body bg-white p-4">
+                      <h3 class="card-title course-card-heading">
+                        Some large title for this course with custom information
+                      </h3>
+                      <div class="media d-flex mentor-info my-3">
+                        <img
+                          class="me-4 align-self-center"
+                          src="img/mentor-6.png"
+                          alt="mentor"
+                        />
+                        <div class="media-body align-self-center">
+                          <p style="color: #333333" class="para-size">
+                            Jacob Jones
+                          </p>
+                        </div>
+                      </div>
+                      <div class="course-review d-flex">
+                        <div class="star align-self-center me-3">
+                          <i class="fas fa-star"></i><i class="fas fa-star"></i
+                          ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                          ><i class="fas fa-star no-color"></i>
+                        </div>
+                        <p class="para-size align-self-center">(124)</p>
+                      </div>
+                    </div>
+                    <div class="card-body p-4 course-info border-top">
+                      <div class="d-flex">
+                        <div class="time align-self-center me-4">
+                          <div class="media d-flex">
+                            <i class="far fa-clock align-self-center me-3"></i>
+                            <p class="para-size align-self-center">2h 30m</p>
+                          </div>
+                        </div>
+                        <div class="lesson align-self-center me-4">
+                          <div class="media d-flex">
+                            <i
+                              class="fas fa-book-open align-self-center me-3"
+                            ></i>
+                            <p class="para-size align-self-center">1 Lesson</p>
+                          </div>
+                        </div>
+                        <div class="button-box ms-auto">
+                          <a
+                            class="btn px-4 py-2 btn-outline-off-green"
+                            href="javascript:void(0)"
+                            >Start Now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide 4 -->
+                <div class="swiper-slide">
+                  <div class="card course-card">
+                    <img
+                      src="img/course-img-1.png"
+                      alt="course"
+                      class="card-img-top"
+                    />
+                    <div class="card-body bg-white p-4">
+                      <h3 class="card-title course-card-heading">
+                        Some large title for this course with custom information
+                      </h3>
+                      <div class="media d-flex mentor-info my-3">
+                        <img
+                          class="me-4 align-self-center"
+                          src="img/mentor-1.png"
+                          alt="mentor"
+                        />
+                        <div class="media-body align-self-center">
+                          <p style="color: #333333" class="para-size">
+                            Cameron Williamson
+                          </p>
+                        </div>
+                      </div>
+                      <div class="course-review d-flex">
+                        <div class="star align-self-center me-3">
+                          <i class="fas fa-star"></i><i class="fas fa-star"></i
+                          ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                          ><i class="fas fa-star no-color"></i>
+                        </div>
+                        <p class="para-size align-self-center">(124)</p>
+                      </div>
+                    </div>
+                    <div class="card-body p-4 course-info border-top">
+                      <div class="d-flex">
+                        <div class="time align-self-center me-4">
+                          <div class="media d-flex">
+                            <i class="far fa-clock align-self-center me-3"></i>
+                            <p class="para-size align-self-center">2h 30m</p>
+                          </div>
+                        </div>
+                        <div class="lesson align-self-center me-4">
+                          <div class="media d-flex">
+                            <i
+                              class="fas fa-book-open align-self-center me-3"
+                            ></i>
+                            <p class="para-size align-self-center">1 Lesson</p>
+                          </div>
+                        </div>
+                        <div class="button-box ms-auto">
+                          <a
+                            class="btn px-4 py-2 btn-outline-off-green"
+                            href="javascript:void(0)"
+                            >Start Now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide 5 -->
+                <div class="swiper-slide">
+                  <div class="card course-card">
+                    <img
+                      src="img/course-img-2.png"
+                      alt="course"
+                      class="card-img-top"
+                    />
+                    <div class="card-body bg-white p-4">
+                      <h3 class="card-title course-card-heading">
+                        Some large title for this course with custom information
+                      </h3>
+                      <div class="media d-flex mentor-info my-3">
+                        <img
+                          class="me-4 align-self-center"
+                          src="img/mentor-2.png"
+                          alt="mentor"
+                        />
+                        <div class="media-body align-self-center">
+                          <p style="color: #333333" class="para-size">
+                            Brooklyn Simmons
+                          </p>
+                        </div>
+                      </div>
+                      <div class="course-review d-flex">
+                        <div class="star align-self-center me-3">
+                          <i class="fas fa-star"></i><i class="fas fa-star"></i
+                          ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                          ><i class="fas fa-star no-color"></i>
+                        </div>
+                        <p class="para-size align-self-center">(124)</p>
+                      </div>
+                    </div>
+                    <div class="card-body p-4 course-info border-top">
+                      <div class="d-flex">
+                        <div class="time align-self-center me-4">
+                          <div class="media d-flex">
+                            <i class="far fa-clock align-self-center me-3"></i>
+                            <p class="para-size align-self-center">2h 30m</p>
+                          </div>
+                        </div>
+                        <div class="lesson align-self-center me-4">
+                          <div class="media d-flex">
+                            <i
+                              class="fas fa-book-open align-self-center me-3"
+                            ></i>
+                            <p class="para-size align-self-center">1 Lesson</p>
+                          </div>
+                        </div>
+                        <div class="button-box ms-auto">
+                          <a
+                            class="btn px-4 py-2 btn-outline-off-green"
+                            href="javascript:void(0)"
+                            >Start Now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide 6 -->
+                <div class="swiper-slide">
+                  <div class="card course-card">
+                    <img
+                      src="img/course-img-5.png"
+                      alt="course"
+                      class="card-img-top"
+                    />
+                    <div class="card-body bg-white p-4">
+                      <h3 class="card-title course-card-heading">
+                        Some large title for this course with custom information
+                      </h3>
+                      <div class="media d-flex mentor-info my-3">
+                        <img
+                          class="me-4 align-self-center"
+                          src="img/mentor-5.png"
+                          alt="mentor"
+                        />
+                        <div class="media-body align-self-center">
+                          <p style="color: #333333" class="para-size">
+                            Darlene Robertson
+                          </p>
+                        </div>
+                      </div>
+                      <div class="course-review d-flex">
+                        <div class="star align-self-center me-3">
+                          <i class="fas fa-star"></i><i class="fas fa-star"></i
+                          ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                          ><i class="fas fa-star no-color"></i>
+                        </div>
+                        <p class="para-size align-self-center">(124)</p>
+                      </div>
+                    </div>
+                    <div class="card-body p-4 course-info border-top">
+                      <div class="d-flex">
+                        <div class="time align-self-center me-4">
+                          <div class="media d-flex">
+                            <i class="far fa-clock align-self-center me-3"></i>
+                            <p class="para-size align-self-center">2h 30m</p>
+                          </div>
+                        </div>
+                        <div class="lesson align-self-center me-4">
+                          <div class="media d-flex">
+                            <i
+                              class="fas fa-book-open align-self-center me-3"
+                            ></i>
+                            <p class="para-size align-self-center">1 Lesson</p>
+                          </div>
+                        </div>
+                        <div class="button-box ms-auto">
+                          <a
+                            class="btn px-4 py-2 btn-outline-off-green"
+                            href="javascript:void(0)"
+                            >Start Now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination d-xl-none"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====================================== End Popular Course Section Here ====================================== -->
+
+    <!-- ====================================== Start Video Section Here ====================================== -->
+    <section id="video-section">
+      <!-- Section Title -->
+      <div class="container">
+        <div class="section-title">
+          <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6 text-center">
+              <h2 class="heading">Your Course to Success</h2>
+              <p class="mt-3 para-size">
+                Start streaming on-demand video lectures today from top
+                instructors in subjects like business, computer science, data
+                science, language learning, & more.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Video -->
+      <div class="video">
+        <div class="container">
+          <div class="video-content">
+            <div class="row justify-content-center">
+              <div class="col-md-10 col-lg-8 text-center">
+                <div class="video-box position-relative">
+                  <img
+                    src="img/course-video-img.png"
+                    class="w-100 h-100 video-img position-absolute"
+                    alt="img"
+                  />
+                  <video class="w-100 rounded" controls>
+                    <source src="video/real-estate.mp4" type="video/mp4" />
+                  </video>
+                  <div class="play-icon">
+                    <div class="pulse">
+                      <i class="fas fa-play"></i>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+                <h2 class="heading text-white mt-5 pt-4">
+                  Get personal learning recommendations
+                </h2>
+                <div class="btn-box mt-5">
+                  <a
+                    style="color: #98ca1b !important"
+                    class="btn btn-light px-5 py-3"
+                    href="javascript:void(0)"
+                    >Get Started</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====================================== End Video Section Here ====================================== -->
+
+    <!-- ====================================== Start Courses Section Here ====================================== -->
+    <section id="courses-section">
+      <div class="container">
+        <!-- Section Title -->
+        <div class="section-title">
+          <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6 text-center">
+              <h2 class="heading">Explore Our Courses</h2>
+              <p class="mt-3 para-size">Achieve your goals with CYBERX</p>
+            </div>
+          </div>
+        </div>
+        <!-- Courses -->
+        <div class="courses mt-4">
+          <!-- Course Category -->
+          <div class="category d-flex justify-content-center">
+            <button class="border-0 is-clicked" data-filter="*">ALL</button>
+            <button class="border-0" data-filter=".html">HTML</button>
+            <button class="border-0" data-filter=".computer-engineering">
+              Computer Engineering
+            </button>
+            <button class="border-0" data-filter=".cyber-security">
+              Cybersecurity
+            </button>
+            <button class="border-0" data-filter=".information-technology">
+              Information Technology
+            </button>
+          </div>
+          <!-- Course Content -->
+          <div class="course-content mt-5 pt-5">
+            <div class="row g-4 courses">
+              <!-- Course Card 1 -->
+              <div
+                class="col-md-6 col-xl-4 mix html computer-engineering cyber-security information-technology"
+              >
+                <div class="card course-card">
+                  <img
+                    src="img/course-img-1.png"
+                    alt="course"
+                    class="card-img-top"
+                  />
+                  <div class="card-body bg-white p-4">
+                    <h3 class="card-title course-card-heading">
+                      Some large title for this course with custom information
+                    </h3>
+                    <div class="media d-flex mentor-info my-3">
+                      <img
+                        class="me-4 align-self-center"
+                        src="img/mentor-1.png"
+                        alt="mentor"
+                      />
+                      <div class="media-body align-self-center">
+                        <p style="color: #333333" class="para-size">
+                          Cameron Williamson
+                        </p>
+                      </div>
+                    </div>
+                    <div class="course-review d-flex">
+                      <div class="star align-self-center me-3">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star no-color"></i>
+                      </div>
+                      <p class="para-size align-self-center">(124)</p>
+                    </div>
+                  </div>
+                  <div class="card-body p-4 course-info border-top">
+                    <div class="d-flex">
+                      <div class="time align-self-center me-4">
+                        <div class="media d-flex">
+                          <i class="far fa-clock align-self-center me-3"></i>
+                          <p class="para-size align-self-center">2h 30m</p>
+                        </div>
+                      </div>
+                      <div class="lesson align-self-center me-4">
+                        <div class="media d-flex">
+                          <i
+                            class="fas fa-book-open align-self-center me-3"
+                          ></i>
+                          <p class="para-size align-self-center">1 Lesson</p>
+                        </div>
+                      </div>
+                      <div class="button-box ms-auto">
+                        <a
+                          class="btn px-4 py-2 btn-outline-off-green"
+                          href="javascript:void(0)"
+                          >Start Now</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Course Card 2 -->
+              <div
+                class="col-md-6 col-xl-4 mix html computer-engineering information-technology"
+              >
+                <div class="card course-card">
+                  <img
+                    src="img/course-img-2.png"
+                    alt="course"
+                    class="card-img-top"
+                  />
+                  <div class="card-body bg-white p-4">
+                    <h3 class="card-title course-card-heading">
+                      Some large title for this course with custom information
+                    </h3>
+                    <div class="media d-flex mentor-info my-3">
+                      <img
+                        class="me-4 align-self-center"
+                        src="img/mentor-2.png"
+                        alt="mentor"
+                      />
+                      <div class="media-body align-self-center">
+                        <p style="color: #333333" class="para-size">
+                          Brooklyn Simmons
+                        </p>
+                      </div>
+                    </div>
+                    <div class="course-review d-flex">
+                      <div class="star align-self-center me-3">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star no-color"></i>
+                      </div>
+                      <p class="para-size align-self-center">(124)</p>
+                    </div>
+                  </div>
+                  <div class="card-body p-4 course-info border-top">
+                    <div class="d-flex">
+                      <div class="time align-self-center me-4">
+                        <div class="media d-flex">
+                          <i class="far fa-clock align-self-center me-3"></i>
+                          <p class="para-size align-self-center">2h 30m</p>
+                        </div>
+                      </div>
+                      <div class="lesson align-self-center me-4">
+                        <div class="media d-flex">
+                          <i
+                            class="fas fa-book-open align-self-center me-3"
+                          ></i>
+                          <p class="para-size align-self-center">1 Lesson</p>
+                        </div>
+                      </div>
+                      <div class="button-box ms-auto">
+                        <a
+                          class="btn px-4 py-2 btn-outline-off-green"
+                          href="javascript:void(0)"
+                          >Start Now</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Course Card 3 -->
+              <div class="col-md-6 col-xl-4 mix html information-technology">
+                <div class="card course-card">
+                  <img
+                    src="img/course-img-3.png"
+                    alt="course"
+                    class="card-img-top"
+                  />
+                  <div class="card-body bg-white p-4">
+                    <h3 class="card-title course-card-heading">
+                      Some large title for this course with custom information
+                    </h3>
+                    <div class="media d-flex mentor-info my-3">
+                      <img
+                        class="me-4 align-self-center"
+                        src="img/mentor-3.png"
+                        alt="mentor"
+                      />
+                      <div class="media-body align-self-center">
+                        <p style="color: #333333" class="para-size">
+                          Albert Flores
+                        </p>
+                      </div>
+                    </div>
+                    <div class="course-review d-flex">
+                      <div class="star align-self-center me-3">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star no-color"></i>
+                      </div>
+                      <p class="para-size align-self-center">(124)</p>
+                    </div>
+                  </div>
+                  <div class="card-body p-4 course-info border-top">
+                    <div class="d-flex">
+                      <div class="time align-self-center me-4">
+                        <div class="media d-flex">
+                          <i class="far fa-clock align-self-center me-3"></i>
+                          <p class="para-size align-self-center">2h 30m</p>
+                        </div>
+                      </div>
+                      <div class="lesson align-self-center me-4">
+                        <div class="media d-flex">
+                          <i
+                            class="fas fa-book-open align-self-center me-3"
+                          ></i>
+                          <p class="para-size align-self-center">1 Lesson</p>
+                        </div>
+                      </div>
+                      <div class="button-box ms-auto">
+                        <a
+                          class="btn px-4 py-2 btn-outline-off-green"
+                          href="javascript:void(0)"
+                          >Start Now</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Course Card 4 -->
+              <div class="col-md-6 col-xl-4 mix information-technology">
+                <div class="card course-card">
+                  <img
+                    src="img/course-img-4.png"
+                    alt="course"
+                    class="card-img-top"
+                  />
+                  <div class="card-body bg-white p-4">
+                    <h3 class="card-title course-card-heading">
+                      Some large title for this course with custom information
+                    </h3>
+                    <div class="media d-flex mentor-info my-3">
+                      <img
+                        class="me-4 align-self-center"
+                        src="img/mentor-4.png"
+                        alt="mentor"
+                      />
+                      <div class="media-body align-self-center">
+                        <p style="color: #333333" class="para-size">
+                          Bessie Cooper
+                        </p>
+                      </div>
+                    </div>
+                    <div class="course-review d-flex">
+                      <div class="star align-self-center me-3">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star no-color"></i>
+                      </div>
+                      <p class="para-size align-self-center">(124)</p>
+                    </div>
+                  </div>
+                  <div class="card-body p-4 course-info border-top">
+                    <div class="d-flex">
+                      <div class="time align-self-center me-4">
+                        <div class="media d-flex">
+                          <i class="far fa-clock align-self-center me-3"></i>
+                          <p class="para-size align-self-center">2h 30m</p>
+                        </div>
+                      </div>
+                      <div class="lesson align-self-center me-4">
+                        <div class="media d-flex">
+                          <i
+                            class="fas fa-book-open align-self-center me-3"
+                          ></i>
+                          <p class="para-size align-self-center">1 Lesson</p>
+                        </div>
+                      </div>
+                      <div class="button-box ms-auto">
+                        <a
+                          class="btn px-4 py-2 btn-outline-off-green"
+                          href="javascript:void(0)"
+                          >Start Now</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Course Card 5 -->
+              <div class="col-md-6 col-xl-4 mix html computer-engineering">
+                <div class="card course-card">
+                  <img
+                    src="img/course-img-5.png"
+                    alt="course"
+                    class="card-img-top"
+                  />
+                  <div class="card-body bg-white p-4">
+                    <h3 class="card-title course-card-heading">
+                      Some large title for this course with custom information
+                    </h3>
+                    <div class="media d-flex mentor-info my-3">
+                      <img
+                        class="me-4 align-self-center"
+                        src="img/mentor-5.png"
+                        alt="mentor"
+                      />
+                      <div class="media-body align-self-center">
+                        <p style="color: #333333" class="para-size">
+                          Darlene Robertson
+                        </p>
+                      </div>
+                    </div>
+                    <div class="course-review d-flex">
+                      <div class="star align-self-center me-3">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star no-color"></i>
+                      </div>
+                      <p class="para-size align-self-center">(124)</p>
+                    </div>
+                  </div>
+                  <div class="card-body p-4 course-info border-top">
+                    <div class="d-flex">
+                      <div class="time align-self-center me-4">
+                        <div class="media d-flex">
+                          <i class="far fa-clock align-self-center me-3"></i>
+                          <p class="para-size align-self-center">2h 30m</p>
+                        </div>
+                      </div>
+                      <div class="lesson align-self-center me-4">
+                        <div class="media d-flex">
+                          <i
+                            class="fas fa-book-open align-self-center me-3"
+                          ></i>
+                          <p class="para-size align-self-center">1 Lesson</p>
+                        </div>
+                      </div>
+                      <div class="button-box ms-auto">
+                        <a
+                          class="btn px-4 py-2 btn-outline-off-green"
+                          href="javascript:void(0)"
+                          >Start Now</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Course Card 6 -->
+              <div class="col-md-6 col-xl-4 mix html cyber-security">
+                <div class="card course-card">
+                  <img
+                    src="img/course-img-6.png"
+                    alt="course"
+                    class="card-img-top"
+                  />
+                  <div class="card-body bg-white p-4">
+                    <h3 class="card-title course-card-heading">
+                      Some large title for this course with custom information
+                    </h3>
+                    <div class="media d-flex mentor-info my-3">
+                      <img
+                        class="me-4 align-self-center"
+                        src="img/mentor-6.png"
+                        alt="mentor"
+                      />
+                      <div class="media-body align-self-center">
+                        <p style="color: #333333" class="para-size">
+                          Jacob Jones
+                        </p>
+                      </div>
+                    </div>
+                    <div class="course-review d-flex">
+                      <div class="star align-self-center me-3">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star no-color"></i>
+                      </div>
+                      <p class="para-size align-self-center">(124)</p>
+                    </div>
+                  </div>
+                  <div class="card-body p-4 course-info border-top">
+                    <div class="d-flex">
+                      <div class="time align-self-center me-4">
+                        <div class="media d-flex">
+                          <i class="far fa-clock align-self-center me-3"></i>
+                          <p class="para-size align-self-center">2h 30m</p>
+                        </div>
+                      </div>
+                      <div class="lesson align-self-center me-4">
+                        <div class="media d-flex">
+                          <i
+                            class="fas fa-book-open align-self-center me-3"
+                          ></i>
+                          <p class="para-size align-self-center">1 Lesson</p>
+                        </div>
+                      </div>
+                      <div class="button-box ms-auto">
+                        <a
+                          class="btn px-4 py-2 btn-outline-off-green"
+                          href="javascript:void(0)"
+                          >Start Now</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Button -->
+            <div class="row">
+              <div class="col-12 text-center">
+                <div class="button-box mt-5">
+                  <a
+                    class="btn px-5 py-3 btn-off-green"
+                    href="javascript:void(0)"
+                    >Load More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====================================== End Courses Section Here ====================================== -->
+
+    <!-- ====================================== Start Experience Section Here ====================================== -->
+    <section id="experience-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-5 text-center p-0 d-none d-lg-block">
+            <img
+              class="w-100 align-self-center"
+              src="img/experience-img.png"
+              alt="image"
+            />
+          </div>
+          <div class="col-lg-7 align-self-center p-0">
+            <div class="experience-content">
+              <h2 class="heading text-white">
+                Make an incredible learning experience
+              </h2>
+              <div class="my-5">
+                <h3 class="sub-heading text-white">Online Courses</h3>
+                <p class="para-size text-white mt-2">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae.
+                </p>
+              </div>
+              <div class="my-5">
+                <h3 class="sub-heading text-white">Upgrades</h3>
+                <p class="para-size text-white mt-2">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae.
+                </p>
+              </div>
+              <div class="my-5">
+                <h3 class="sub-heading text-white">Certificates</h3>
+                <p class="para-size text-white mt-2">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====================================== End Experience Section Here ====================================== -->
+
+    <!-- ====================================== Start Top Categories Section Here ====================================== -->
+    <section id="top-categories-section">
+      <div class="container">
+        <!-- Heading Title -->
+        <div class="heading-title">
+          <h2 class="heading">Top categories</h2>
+        </div>
+        <div class="row g-4 mt-5">
+          <div class="col-sm-6 col-lg-3">
+            <div class="category-box category-box-1 border bg-white w-100">
+              <div class="text-center">
+                <svg
+                  class="top-category-icon"
+                  viewBox="0 0 124 95"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M30.6051 18.0979V7.08355C30.6051 4.27598 32.8811 2 35.6886 2H89.9132C92.7208 2 94.9967 4.27598 94.9967 7.08355V18.0979M30.6051 18.0979H94.9967M30.6051 18.0979V37.5849M94.9967 18.0979V44.3629C94.9967 47.1705 92.7208 49.4465 89.9132 49.4465H66.1899M37.3831 51.141L48.3975 58.7663L37.3831 66.3917M87.3714 58.7663V68.9335C87.3714 74.5486 82.8195 79.1006 77.2043 79.1006M87.3714 58.7663L77.2043 68.9335M87.3714 58.7663L97.5385 68.9335M30.6051 37.5849H23.827C21.0194 37.5849 18.7434 39.8609 18.7434 42.6684V74.8643C18.7434 77.6718 21.0194 79.9478 23.827 79.9478H61.1064C63.914 79.9478 66.1899 77.6718 66.1899 74.8643V49.4465M30.6051 37.5849H61.1064C63.914 37.5849 66.1899 39.8609 66.1899 42.6684V49.4465M106.643 14.218L102.183 17.8425C101.716 18.2215 101.875 18.9708 102.455 19.1269L108 20.62C108.228 20.6811 108.412 20.8473 108.496 21.0672L110.557 26.4385C110.773 27.0002 111.533 27.0803 111.86 26.5758L114.991 21.7514C115.119 21.5538 115.334 21.4296 115.568 21.4172L121.302 21.1123C121.902 21.0804 122.213 20.3806 121.835 19.9127L118.225 15.438C118.077 15.2548 118.025 15.0118 118.086 14.7842L119.568 9.22449C119.724 8.64305 119.156 8.1305 118.595 8.34582L113.233 10.4047C113.013 10.489 112.767 10.4631 112.57 10.3348L107.752 7.20365C107.248 6.87618 106.586 7.25917 106.617 7.86022L106.914 13.6073C106.926 13.8426 106.825 14.0696 106.643 14.218ZM4.6514 86.4172L3.17757 90.5192C2.97412 91.0854 3.49691 91.6442 4.0738 91.4771L8.25285 90.2663C8.4787 90.2009 8.72216 90.2476 8.90792 90.3921L12.345 93.0645C12.8195 93.4334 13.5112 93.1077 13.5309 92.5062L13.6734 88.1487C13.6811 87.9132 13.8007 87.6956 13.9952 87.5631L17.5932 85.1128C18.0899 84.7745 17.9947 84.0145 17.4299 83.8098L13.339 82.3275C13.1179 82.2473 12.9483 82.0661 12.8828 81.8399L11.6694 77.653C11.5019 77.075 10.7512 76.931 10.3826 77.406L7.71168 80.8474C7.56733 81.0334 7.34297 81.139 7.10798 81.1316L2.76002 80.9944C2.1598 80.9754 1.79114 81.6464 2.12801 82.1446L4.56828 85.7539C4.70016 85.949 4.73106 86.1955 4.6514 86.4172ZM17.5923 20.2295C17.5923 22.8757 15.4519 25.0208 12.8116 25.0208C10.1713 25.0208 8.03095 22.8757 8.03095 20.2295C8.03095 17.5833 10.1713 15.438 12.8116 15.438C15.4519 15.438 17.5923 17.5833 17.5923 20.2295Z"
+                    stroke="#98CA1B"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <a
+                href="javascript:void(0)"
+                class="category-link d-block w-100 px-3"
+              >
+                <span class="d-flex justify-content-between align-items-center">
+                  <span class="para-size">IT and Software</span>
+                  <i
+                    style="font-size: 1.8rem"
+                    class="fas fa-long-arrow-alt-right text-white align-self-center"
+                  ></i>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="category-box category-box-2 border bg-white w-100">
+              <div class="text-center">
+                <svg
+                  class="top-category-icon"
+                  viewBox="0 0 124 122"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.3332 61.4962C7.833 59.5518 17.3991 56.1298 27.6652 57.9964C40.4978 60.3296 61.4966 63.8298 61.4966 71.996V74.3725M26.4986 77.829H47.4974C56.8302 77.829 60.4597 76.1007 61.4966 74.3725M61.4966 74.3725L97.9686 72.0507C98.5232 72.0154 99.0736 72.174 99.5039 72.5256C104.053 76.2423 109.216 83.6066 97.6613 87.1618C85.6818 90.8478 65.1345 98.6282 56.0081 102.193C55.7745 102.284 55.5695 102.411 55.3664 102.558C52.7235 104.473 45.1579 106.812 33.4982 102.328C21.3656 97.6613 7.44414 92.606 2 90.6617M40.4978 39.3312L28.1484 26.9818C27.2373 26.0707 27.2373 24.5934 28.1484 23.6822L40.4978 11.3328M52.1638 48.664L71.996 2M83.6621 39.3312L96.0114 26.9818C96.9226 26.0707 96.9226 24.5934 96.0114 23.6822L83.6621 11.3328M94.2889 106.673L89.9522 110.814C89.3536 111.386 89.6538 112.396 90.4669 112.547L96.357 113.637C96.6754 113.696 96.9465 113.904 97.0864 114.196L99.6757 119.609C100.033 120.357 101.085 120.383 101.479 119.654L104.334 114.377C104.488 114.092 104.769 113.897 105.09 113.854L111.027 113.059C111.846 112.949 112.196 111.955 111.627 111.354L107.501 107.002C107.278 106.767 107.18 106.439 107.239 106.12L108.319 100.215C108.468 99.4003 107.632 98.7593 106.886 99.1166L101.481 101.705C101.189 101.845 100.848 101.836 100.563 101.682L95.2939 98.8277C94.5664 98.4337 93.7 99.0323 93.8085 99.8538L94.5943 105.805C94.6368 106.127 94.5233 106.449 94.2889 106.673ZM103.737 52.1308L101.707 57.7789C101.427 58.5586 102.147 59.328 102.941 59.0979L108.695 57.4308C109.006 57.3407 109.342 57.405 109.597 57.6039L114.33 61.2836C114.983 61.7916 115.936 61.3432 115.963 60.5149L116.159 54.515C116.17 54.1907 116.334 53.8911 116.602 53.7087L121.556 50.3348C122.24 49.869 122.109 48.8226 121.331 48.5408L115.699 46.4997C115.394 46.3894 115.161 46.1398 115.07 45.8283L113.4 40.0634C113.169 39.2676 112.135 39.0692 111.628 39.7233L107.95 44.4618C107.751 44.7179 107.443 44.8633 107.119 44.8531L101.132 44.6641C100.306 44.638 99.7982 45.5619 100.262 46.2479L103.622 51.2176C103.804 51.4862 103.846 51.8256 103.737 52.1308ZM15.165 15.9992C15.165 19.6427 12.2179 22.5964 8.58246 22.5964C4.94702 22.5964 2 19.6427 2 15.9992C2 12.3556 4.94702 9.40176 8.58246 9.40176C12.2179 9.40176 15.165 12.3556 15.165 15.9992Z"
+                    stroke="#98CA1B"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <a
+                href="javascript:void(0)"
+                class="category-link d-block w-100 px-3"
+              >
+                <span class="d-flex justify-content-between align-items-center">
+                  <span class="para-size">Development</span>
+                  <i
+                    style="font-size: 1.8rem"
+                    class="fas fa-long-arrow-alt-right text-white align-self-center"
+                  ></i>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="category-box category-box-3 border bg-white w-100">
+              <div class="text-center">
+                <svg
+                  class="top-category-icon"
+                  viewBox="0 0 124 136"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M72.8126 45.4642L43.9802 50.8703C43.0062 51.0529 42.2116 51.7566 41.9126 52.7014L20.1992 121.316C19.5422 123.392 21.4971 125.347 23.5732 124.69L92.1879 102.977C93.1327 102.678 93.8364 101.883 94.0191 100.909L99.4251 72.0767M72.8126 45.4642L80.8321 24.6134C81.5305 22.7977 83.8665 22.302 85.2421 23.6776L121.212 59.6472C122.587 61.0228 122.092 63.3588 120.276 64.0572L99.4251 72.0767M72.8126 45.4642L99.4251 72.0767M56.655 88.2343C60.8543 92.4337 67.6628 92.4337 71.8621 88.2343C76.0615 84.035 76.0615 77.2265 71.8621 73.0272C67.6628 68.8278 60.8543 68.8278 56.655 73.0272C52.4556 77.2265 52.4556 84.035 56.655 88.2343ZM56.655 88.2343L41.4478 103.442M17.1686 77.9113C17.1686 82.1093 13.773 85.5125 9.58427 85.5125C5.39559 85.5125 2 82.1093 2 77.9113C2 73.7132 5.39559 70.31 9.58427 70.31C13.773 70.31 17.1686 73.7132 17.1686 77.9113ZM54.8057 11.8874L63.6494 14.1045C64.5743 14.3364 64.8488 15.5201 64.1199 16.1338L57.1504 22.0015C56.865 22.2418 56.7117 22.6044 56.738 22.9772L57.3798 32.0817C57.4469 33.0338 56.408 33.659 55.5988 33.1535L47.8611 28.3192C47.5443 28.1212 47.1523 28.0867 46.8065 28.2264L38.3594 31.6362C37.4759 31.9928 36.5594 31.1955 36.7882 30.2693L38.9756 21.4138C39.0651 21.0512 38.9761 20.6673 38.7361 20.3808L32.8738 13.3837C32.2606 12.652 32.7332 11.534 33.6838 11.4672L42.7733 10.8284C43.1455 10.8023 43.4824 10.5995 43.6799 10.2829L48.5039 2.54858C49.0084 1.7397 50.2169 1.84607 50.5757 2.73092L54.0059 11.1917C54.1463 11.5381 54.4436 11.7967 54.8057 11.8874ZM113.8 116.951L120.346 119.16C121.25 119.465 121.429 120.667 120.654 121.22L115.035 125.229C114.732 125.446 114.55 125.795 114.547 126.169L114.482 133.082C114.473 134.037 113.387 134.577 112.621 134.008L107.068 129.889C106.768 129.667 106.38 129.601 106.024 129.713L99.4385 131.776C98.5293 132.061 97.6792 131.193 97.981 130.288L100.168 123.734C100.286 123.38 100.228 122.99 100.011 122.685L96.0056 117.047C95.4527 116.269 96.0128 115.192 96.9658 115.202L103.87 115.269C104.243 115.273 104.595 115.098 104.817 114.798L108.927 109.25C109.495 108.484 110.691 108.687 110.978 109.597L113.058 116.194C113.171 116.55 113.447 116.831 113.8 116.951Z"
+                    stroke="#98CA1B"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <a
+                href="javascript:void(0)"
+                class="category-link d-block w-100 px-3"
+              >
+                <span class="d-flex justify-content-between align-items-center">
+                  <span class="para-size">Design</span>
+                  <i
+                    style="font-size: 1.8rem"
+                    class="fas fa-long-arrow-alt-right text-white align-self-center"
+                  ></i>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="category-box category-box-4 border bg-white w-100">
+              <div class="text-center">
+                <svg
+                  class="top-category-icon"
+                  viewBox="0 0 124 88"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M93.1367 86.3228H99.0989M93.1367 86.3228V57.3634C93.1367 56.4226 92.374 55.6599 91.4332 55.6599H79.5088C78.568 55.6599 77.8053 56.4226 77.8053 57.3634V86.3228M93.1367 86.3228H77.8053M19.8866 86.3228H27.5524M27.5524 86.3228H42.8838M27.5524 86.3228V68.4361C27.5524 67.4953 28.315 66.7326 29.2558 66.7326H41.1803C42.1211 66.7326 42.8838 67.4953 42.8838 68.4361V86.3228M42.8838 86.3228H52.253M52.253 86.3228H67.5844M52.253 86.3228V42.032C52.253 41.0912 53.0156 40.3285 53.9564 40.3285H65.8809C66.8217 40.3285 67.5844 41.0912 67.5844 42.032V86.3228M67.5844 86.3228H77.8053M30.1807 37.6237C29.0032 36.6529 27.4941 36.0698 25.8489 36.0698C22.0856 36.0698 19.0349 39.1205 19.0349 42.8838C19.0349 46.647 22.0856 49.6977 25.8489 49.6977C29.6121 49.6977 32.6628 46.647 32.6628 42.8838C32.6628 40.7658 31.6965 38.8735 30.1807 37.6237ZM30.1807 37.6237L45.3659 19.1845M45.3659 19.1845C46.5434 20.1553 48.0525 20.7384 49.6977 20.7384C52.7634 20.7384 55.3562 18.7139 56.2121 15.9289M45.3659 19.1845C43.8501 17.9347 42.8838 16.0424 42.8838 13.9244C42.8838 10.1612 45.9345 7.11047 49.6977 7.11047C53.461 7.11047 56.5117 10.1612 56.5117 13.9244C56.5117 14.622 56.4069 15.2951 56.2121 15.9289M56.2121 15.9289L87.4741 25.5479M87.4741 25.5479C87.2793 26.1817 87.1745 26.8548 87.1745 27.5524C87.1745 31.3156 90.2252 34.3663 93.9885 34.3663C97.7517 34.3663 100.802 31.3156 100.802 27.5524C100.802 23.7891 97.7517 20.7384 93.9885 20.7384C90.9228 20.7384 88.33 22.7629 87.4741 25.5479ZM106.561 9.17222L102.078 12.8159C101.609 13.197 101.769 13.9502 102.352 14.1072L107.926 15.6081C108.155 15.6695 108.34 15.8366 108.425 16.0577L110.497 21.4574C110.714 22.0221 111.478 22.1026 111.807 21.5954L114.954 16.7455C115.083 16.5469 115.298 16.422 115.534 16.4095L121.299 16.103C121.901 16.0709 122.214 15.3675 121.834 14.897L118.205 10.3987C118.056 10.2145 118.004 9.97022 118.065 9.74138L119.556 4.15228C119.711 3.56775 119.14 3.05249 118.577 3.26896L113.186 5.33874C112.966 5.42349 112.718 5.39739 112.52 5.2685L107.676 2.12073C107.17 1.79153 106.504 2.17655 106.536 2.78078L106.834 8.55832C106.846 8.79488 106.745 9.02303 106.561 9.17222ZM6.75772 65.0412L2.27408 68.6849C1.80517 69.0659 1.96493 69.8192 2.54794 69.9761L8.12263 71.477C8.35088 71.5385 8.53608 71.7056 8.62092 71.9267L10.693 77.3264C10.9097 77.8911 11.6738 77.9716 12.0029 77.4644L15.1499 72.6145C15.2787 72.4159 15.4945 72.291 15.7306 72.2785L21.4948 71.972C22.0976 71.9399 22.4101 71.2365 22.0305 70.766L18.4008 66.2677C18.2521 66.0835 18.2003 65.8392 18.2614 65.6103L19.7517 60.0212C19.9076 59.4367 19.3367 58.9215 18.7729 59.1379L13.3826 61.2077C13.1619 61.2925 12.9141 61.2664 12.7158 61.1375L7.8727 57.9897C7.3662 57.6605 6.70081 58.0455 6.73202 58.6498L7.03042 64.4273C7.04264 64.6639 6.9413 64.892 6.75772 65.0412Z"
+                    stroke="#98CA1B"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <a
+                href="javascript:void(0)"
+                class="category-link d-block w-100 px-3"
+              >
+                <span class="d-flex justify-content-between align-items-center">
+                  <span class="para-size">Business</span>
+                  <i
+                    style="font-size: 1.8rem"
+                    class="fas fa-long-arrow-alt-right text-white align-self-center"
+                  ></i>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="category-box category-box-5 border bg-white w-100">
+              <div class="text-center">
+                <svg
+                  class="top-category-icon"
+                  viewBox="0 0 124 145"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M109.931 108.821C108.293 110.736 106.502 112.538 104.566 114.204L86.7688 112.138L75.6843 126.214C73.1379 126.411 70.5973 126.411 68.0831 126.221L56.9623 112.18L39.1749 114.294C37.2593 112.656 35.4577 110.865 33.7909 108.929L35.8567 91.1324L21.7808 80.0478C21.5836 77.5015 21.584 74.9609 21.7736 72.4468L35.8154 61.3258L33.7005 43.5375C35.3382 41.6222 37.1292 39.8209 39.0651 38.1543L56.8626 40.2202L67.9479 26.1434C70.4937 25.9463 73.0338 25.9467 75.5474 26.1362L86.6691 40.1789L104.458 38.064C106.373 39.7015 108.174 41.4923 109.841 43.428L107.775 61.2261L121.851 72.3113C122.049 74.8572 122.048 77.3974 121.859 79.9111L107.816 91.0326L109.931 108.821ZM53.749 83.859C57.9908 93.8373 69.5186 98.4876 79.4969 94.2457C89.4752 90.0038 94.1255 78.4761 89.8836 68.4977C85.6417 58.5194 74.114 53.8691 64.1357 58.111C54.1574 62.3529 49.5071 73.8807 53.749 83.859Z"
+                    stroke="#98CA1B"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M93.3065 2.99981C93.2665 2.22608 94.1185 1.73305 94.7671 2.1546L100.969 6.18538C101.223 6.35042 101.54 6.38384 101.823 6.27532L108.725 3.62492C109.447 3.34773 110.178 4.00753 109.978 4.75602L108.07 11.913C107.992 12.206 108.058 12.5188 108.248 12.7547L112.896 18.5149C113.383 19.1173 112.982 20.0181 112.21 20.0591L104.829 20.4516C104.527 20.4677 104.251 20.6276 104.086 20.8818L100.056 27.0922C99.6345 27.7418 98.656 27.6387 98.3786 26.9156L95.7252 20.0012C95.6166 19.7181 95.3794 19.5041 95.0872 19.4254L87.9487 17.5034C87.2021 17.3024 86.9976 16.3379 87.598 15.8499L93.3394 11.1842C93.5745 10.9931 93.7042 10.701 93.6886 10.398L93.3065 2.99981Z"
+                    stroke="#98CA1B"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M2.16479 101.898C1.73114 101.257 2.20572 100.393 2.97837 100.417L8.57549 100.594C8.87799 100.603 9.16681 100.467 9.35262 100.228L12.7908 95.798C13.2655 95.1864 14.2317 95.3719 14.4474 96.1159L16.0093 101.506C16.0938 101.797 16.312 102.03 16.5966 102.133L21.8629 104.042C22.5899 104.305 22.7125 105.283 22.0731 105.719L17.4413 108.873C17.191 109.044 17.0371 109.324 17.0272 109.627L16.8437 115.236C16.8184 116.011 15.9279 116.43 15.3171 115.955L10.8925 112.515C10.6534 112.329 10.34 112.269 10.0493 112.353L4.6696 113.912C3.92697 114.127 3.25398 113.407 3.51588 112.678L5.41314 107.398C5.51568 107.113 5.47591 106.795 5.30613 106.544L2.16479 101.898Z"
+                    stroke="#98CA1B"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M101.879 136.868C101.879 140.274 99.1241 143.035 95.7252 143.035C92.3264 143.035 89.5711 140.274 89.5711 136.868C89.5711 133.461 92.3264 130.7 95.7252 130.7C99.1241 130.7 101.879 133.461 101.879 136.868Z"
+                    stroke="#98CA1B"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <a
+                href="javascript:void(0)"
+                class="category-link d-block w-100 px-3"
+              >
+                <span class="d-flex justify-content-between align-items-center">
+                  <span class="para-size">Computer Engineering</span>
+                  <i
+                    style="font-size: 1.8rem"
+                    class="fas fa-long-arrow-alt-right text-white align-self-center"
+                  ></i>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="category-box category-box-6 border bg-white w-100">
+              <div class="text-center">
+                <svg
+                  class="top-category-icon"
+                  viewBox="0 0 124 111"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25.9137 27.1601L62.305 18.0623L98.6962 27.1601V59.1916C98.6962 80.7706 83.4649 99.3498 62.305 103.582C41.145 99.3498 25.9137 80.7706 25.9137 59.1916V27.1601Z"
+                    stroke="#98CA1B"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M44.1094 54.4536C44.1094 53.4486 44.924 52.634 45.9289 52.634H78.6811C79.686 52.634 80.5006 53.4486 80.5006 54.4536V79.9274C80.5006 80.9323 79.686 81.747 78.6811 81.747H45.9289C44.924 81.747 44.1094 80.9323 44.1094 79.9274V54.4536Z"
+                    stroke="#98CA1B"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M51.3876 47.1753C51.3876 41.1458 56.2755 36.2579 62.305 36.2579C68.3345 36.2579 73.2224 41.1458 73.2224 47.1753V52.634H51.3876V47.1753Z"
+                    stroke="#98CA1B"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M65.9441 67.1905C65.9441 69.2003 64.3148 70.8296 62.305 70.8296C60.2952 70.8296 58.6659 69.2003 58.6659 67.1905C58.6659 65.1807 60.2952 63.5514 62.305 63.5514C64.3148 63.5514 65.9441 65.1807 65.9441 67.1905Z"
+                    stroke="#98CA1B"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M17.0265 88.8201C16.9932 88.1747 17.7039 87.7634 18.245 88.1151L23.4181 91.4773C23.6299 91.615 23.8946 91.6429 24.1303 91.5523L29.8879 89.3415C30.49 89.1103 31.0999 89.6607 30.9334 90.285L29.3414 96.255C29.2763 96.4994 29.3316 96.7603 29.4903 96.9571L33.3675 101.762C33.7729 102.264 33.4391 103.016 32.7952 103.05L26.6382 103.377C26.3861 103.391 26.1556 103.524 26.018 103.736L22.6566 108.917C22.3051 109.458 21.4889 109.373 21.2574 108.769L19.0441 103.002C18.9535 102.766 18.7557 102.587 18.5119 102.521L12.5574 100.918C11.9346 100.751 11.764 99.946 12.2649 99.539L17.054 95.647C17.2501 95.4877 17.3583 95.244 17.3453 94.9913L17.0265 88.8201Z"
+                    stroke="#98CA1B"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M105.047 47.774C104.686 47.239 105.082 46.5185 105.726 46.5389L110.395 46.6863C110.647 46.6942 110.888 46.5808 111.043 46.3811L113.911 42.6858C114.307 42.1757 115.113 42.3304 115.293 42.951L116.596 47.4468C116.666 47.6897 116.848 47.8843 117.086 47.9704L121.479 49.5621C122.085 49.7819 122.187 50.598 121.654 50.9612L117.79 53.5924C117.582 53.7346 117.453 53.9683 117.445 54.2212L117.292 58.9003C117.271 59.5462 116.528 59.8959 116.018 59.4997L112.328 56.6301C112.128 56.475 111.867 56.4248 111.624 56.4951L107.137 57.7951C106.517 57.9746 105.956 57.3746 106.175 56.7666L107.757 52.3619C107.843 52.1238 107.809 51.8591 107.668 51.6497L105.047 47.774Z"
+                    stroke="#98CA1B"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M43.0621 7.14493C43.0621 9.9864 40.7638 12.2899 37.9286 12.2899C35.0935 12.2899 32.7952 9.9864 32.7952 7.14493C32.7952 4.30346 35.0935 2 37.9286 2C40.7638 2 43.0621 4.30346 43.0621 7.14493Z"
+                    stroke="#98CA1B"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12.2669 78.1075C12.2669 80.9489 9.96855 83.2524 7.13344 83.2524C4.29832 83.2524 2 80.9489 2 78.1075C2 75.266 4.29832 72.9625 7.13344 72.9625C9.96855 72.9625 12.2669 75.266 12.2669 78.1075Z"
+                    stroke="#98CA1B"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <a
+                href="javascript:void(0)"
+                class="category-link d-block w-100 px-3"
+              >
+                <span class="d-flex justify-content-between align-items-center">
+                  <span class="para-size">Cybersecurity</span>
+                  <i
+                    style="font-size: 1.8rem"
+                    class="fas fa-long-arrow-alt-right text-white align-self-center"
+                  ></i>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="category-box category-box-7 border bg-white w-100">
+              <div class="text-center">
+                <svg
+                  class="top-category-icon"
+                  viewBox="0 0 124 137"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M98.6498 56.8777V38.3921L84.0559 23.7982H32.4909V101.632H65.5703M98.6498 102.605V87.0384M98.6498 80.2279V79.255M98.6498 79.255V78.282M98.6498 79.255H97.6769M98.6498 79.255H99.6227M54.8682 44.2297L45.1389 53.9589L54.8682 63.6882M63.6245 44.2297L73.3537 53.9589L63.6245 63.6882M70.3895 130.81L75.6059 134.852C76.1514 135.275 76.9479 134.902 76.9713 134.213L77.1948 127.622C77.2039 127.352 77.3418 127.103 77.5657 126.951L83.035 123.245C83.607 122.858 83.4983 121.987 82.8486 121.752L76.6371 119.51C76.3828 119.418 76.1879 119.21 76.1127 118.951L74.2764 112.618C74.0844 111.956 73.2208 111.791 72.7959 112.335L68.7335 117.54C68.5671 117.753 68.3088 117.874 68.0384 117.865L61.4343 117.657C60.7436 117.635 60.3186 118.404 60.7056 118.975L64.4064 124.435C64.5579 124.658 64.5932 124.941 64.5012 125.195L62.2559 131.399C62.0211 132.048 62.622 132.688 63.2861 132.496L69.6358 130.666C69.8958 130.591 70.1759 130.644 70.3895 130.81ZM11.8307 39.4508L17.0471 43.4933C17.5926 43.9161 18.3891 43.543 18.4124 42.8537L18.636 36.2629C18.6451 35.9931 18.783 35.7437 19.0069 35.592L24.4761 31.8862C25.0481 31.4986 24.9394 30.6277 24.2898 30.3932L18.0783 28.1506C17.824 28.0588 17.6291 27.8511 17.5539 27.5918L15.7176 21.259C15.5256 20.5967 14.6619 20.4315 14.2371 20.9759L10.1747 26.1807C10.0083 26.3938 9.75001 26.5148 9.47961 26.5063L2.87551 26.2982C2.18483 26.2764 1.75976 27.0452 2.1468 27.6162L5.8476 33.0755C5.99913 33.2991 6.03438 33.5815 5.94245 33.8356L3.69715 40.0397C3.46233 40.6886 4.06325 41.3289 4.72732 41.1374L11.077 39.3067C11.337 39.2318 11.6171 39.2853 11.8307 39.4508ZM36.6779 2.14531C39.6372 1.45521 42.5944 3.2894 43.2829 6.24207C43.9715 9.19474 42.1307 12.1478 39.1714 12.8379C36.2121 13.528 33.2549 11.6938 32.5664 8.74112C31.8778 5.78845 33.7186 2.8354 36.6779 2.14531ZM122 89.9571C122 102.853 111.546 113.307 98.6498 113.307C85.7538 113.307 75.2996 102.853 75.2996 89.9571C75.2996 77.0612 85.7538 66.6069 98.6498 66.6069C111.546 66.6069 122 77.0612 122 89.9571Z"
+                    stroke="#98CA1B"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <a
+                href="javascript:void(0)"
+                class="category-link d-block w-100 px-3"
+              >
+                <span class="d-flex justify-content-between align-items-center">
+                  <span class="para-size">Information technology</span>
+                  <i
+                    style="font-size: 1.8rem"
+                    class="fas fa-long-arrow-alt-right text-white align-self-center"
+                  ></i>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="category-box category-box-8 border bg-white w-100">
+              <div class="text-center">
+                <svg
+                  class="top-category-icon"
+                  viewBox="0 0 124 104"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M92.3217 44.4025V28.2915L79.6024 15.5722H34.661V83.4083H63.4914M42.2926 33.3792H79.6024M42.2926 41.8587H79.6024M42.2926 50.3382H79.6024M42.2926 58.8177H63.4914M6.73652 69.0024L2.27286 72.6299C1.80604 73.0092 1.96507 73.7591 2.5455 73.9154L8.09536 75.4096C8.3226 75.4708 8.50696 75.6371 8.59142 75.8573L10.6543 81.2329C10.87 81.7951 11.6307 81.8752 11.9584 81.3703L15.0913 76.5419C15.2196 76.3443 15.4344 76.2199 15.6694 76.2074L21.408 75.9023C22.0081 75.8704 22.3192 75.1701 21.9413 74.7017L18.3277 70.2234C18.1797 70.0401 18.1282 69.7969 18.1889 69.569L19.6727 64.0048C19.8279 63.4229 19.2594 62.9099 18.6982 63.1254L13.3319 65.186C13.1122 65.2704 12.8655 65.2444 12.6681 65.1161L7.84655 61.9823C7.3423 61.6546 6.67987 62.0379 6.71094 62.6394L7.00802 68.3912C7.02018 68.6268 6.91928 68.8539 6.73652 69.0024ZM95.2541 9.14027L90.7904 12.7677C90.3236 13.1471 90.4826 13.8969 91.063 14.0532L96.6129 15.5474C96.8401 15.6086 97.0245 15.775 97.1089 15.9951L99.1718 21.3707C99.3875 21.9329 100.148 22.0131 100.476 21.5081L103.609 16.6798C103.737 16.4821 103.952 16.3578 104.187 16.3453L109.925 16.0402C110.526 16.0083 110.837 15.3079 110.459 14.8396L106.845 10.3613C106.697 10.1779 106.646 9.93472 106.706 9.7069L108.19 4.14269C108.345 3.56077 107.777 3.0478 107.216 3.2633L101.849 5.32388C101.63 5.40825 101.383 5.38226 101.186 5.25395L96.3641 2.12019C95.8598 1.79246 95.1974 2.17577 95.2285 2.77731L95.5255 8.52911C95.5377 8.76461 95.4368 8.99175 95.2541 9.14027ZM122 37.6139C122 40.2623 119.858 42.4092 117.215 42.4092C114.573 42.4092 112.431 40.2623 112.431 37.6139C112.431 34.9656 114.573 32.8187 117.215 32.8187C119.858 32.8187 122 34.9656 122 37.6139ZM38.2945 96.9755C38.2945 99.6239 36.1524 101.771 33.5099 101.771C30.8675 101.771 28.7254 99.6239 28.7254 96.9755C28.7254 94.3271 30.8675 92.1802 33.5099 92.1802C36.1524 92.1802 38.2945 94.3271 38.2945 96.9755ZM70.275 93.5837V83.4083L97.1041 56.5791C100.473 53.2099 105.756 51.3642 109.125 54.7334C112.495 58.1027 110.649 63.3853 107.28 66.7545L80.4504 93.5837H70.275Z"
+                    stroke="#98CA1B"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <a
+                href="javascript:void(0)"
+                class="category-link d-block w-100 px-3"
+              >
+                <span class="d-flex justify-content-between align-items-center">
+                  <span class="para-size">Copywriting</span>
+                  <i
+                    style="font-size: 1.8rem"
+                    class="fas fa-long-arrow-alt-right text-white align-self-center"
+                  ></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====================================== End Top Categories Section Here ====================================== -->
+
+    <!-- ====================================== Start Contact Section Here ====================================== -->
+    <section id="contact-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <!-- Heading Title -->
+            <div class="heading-title mb-5">
+              <h2 class="heading">We're here to help</h2>
+              <p class="para-size mt-3">
+                Leave a message and we will get back to you.
+              </p>
+            </div>
+            <form
+              action="javascript:void(0)"
+              class="row g-4 needs-validation"
+              novalidate
+            >
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustom01"
+                  placeholder="First Name"
+                  required
+                />
+                <div class="valid-feedback">Looks good!</div>
+              </div>
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustom02"
+                  placeholder="Last Name"
+                  required
+                />
+                <div class="valid-feedback">Looks good!</div>
+              </div>
+              <div class="col-md-12">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="validationCustom03"
+                  placeholder="Email"
+                  required
+                />
+                <div class="valid-feedback">Looks good!</div>
+              </div>
+              <div class="col-md-12">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustom04"
+                  placeholder="Company"
+                  required
+                />
+                <div class="valid-feedback">Looks good!</div>
+              </div>
+              <div class="col-md-12">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustom05"
+                  placeholder="Business Phone"
+                  required
+                />
+                <div class="valid-feedback">Looks good!</div>
+              </div>
+              <div class="col-md-12">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustom06"
+                  placeholder="City"
+                  required
+                />
+                <div class="valid-feedback">Looks good!</div>
+              </div>
+              <div class="col-12">
+                <button
+                  class="btn btn-off-green btn-block w-100 py-3"
+                  type="submit"
+                >
+                  Submit form
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====================================== End Contact Section Here ====================================== -->
+
+    <!-- ====================================== Start Footer Section Here ====================================== -->
+    <footer>
+      <div class="container">
+        <!-- Footer Widget -->
+        <div class="footer-widget border-bottom pb-5">
+          <div class="d-flex justify-content-end align-items-center">
+            <div class="footer-item">
+              <a href="javascript:void(0)">Terms & Conditions</a>
+            </div>
+            <div class="footer-item">
+              <a href="javascript:void(0)">Privacy Policy</a>
+            </div>
+            <div class="footer-item">
+              <a href="javascript:void(0)">Sitemap</a>
+            </div>
+            <div class="footer-item text-center me-0">
+              <div
+                class="nice-select nice-select-footer text-white text-center position-relative"
+                tabindex="0"
+              >
+                <i class="fas fa-globe global-icon position-absolute"></i>
+                <span class="current">English</span>
+                <ul class="list text-center">
+                  <li data-value="1" class="option selected">English</li>
+                  <li data-value="2" class="option">Bengali</li>
+                  <li data-value="3" class="option">Arabic</li>
+                  <li data-value="4" class="option">Hindi</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Footer Copyright -->
+        <div class="copyright pt-5">
+          <div class="row g-4 justify-content-between align-items-center">
+            <div class="col-md-6 text-center text-md-start">
+              <a class="footer-logo" href="index.html"
+                ><img src="img/footer-logo.png" alt="logo"
+              /></a>
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              <p class="para-size text-white">
+                2020. CyberX. All Right Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ====================================== End Footer Section Here ====================================== -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JQUERY -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Nice Select -->
+    <script src="js/jquery.nice-select.min.js"></script>
+    <!-- Mixitup Filtering -->
+    <script src="js/mixitup.min.js"></script>
+    <!-- Swiper Slider -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
