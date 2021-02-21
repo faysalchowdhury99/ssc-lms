@@ -9,7 +9,7 @@
 }
 body {
   line-height: 1.5;
-  font-family: "Cairo", sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-weight: 400;
   background: #f7f7f7;
 }
@@ -97,7 +97,7 @@ p {
   flex: 1;
 }
 .navbar-brand::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 0.1rem;
   background-color: #e0e0e2;
@@ -162,7 +162,7 @@ p {
   color: #98ca1b;
 }
 .nav-login-btn::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 0.1rem;
   background-color: #e0e0e2;
@@ -216,7 +216,7 @@ button {
 /* Banner Section */
 /* ================ */
 #banner-section {
-  background-image: url("../img/banner-bg.png");
+  background-image: url('../img/banner-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -277,7 +277,7 @@ button {
   padding: 5rem 0;
 }
 .video {
-  background-image: url("../img/course-video-bg.png");
+  background-image: url('../img/course-video-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -330,7 +330,7 @@ video:focus {
   left: 0;
   right: 0;
   bottom: 0;
-  content: "";
+  content: '';
   border: 1px solid #ffffff;
   border-radius: 50%;
   z-index: -1;
@@ -437,7 +437,7 @@ video:focus {
   padding: 10rem 0;
 }
 .experience-content {
-  background-image: url("../img/experience-bg.png");
+  background-image: url('../img/experience-bg.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left top;
@@ -472,13 +472,13 @@ video:focus {
 .category-box-2:hover,
 .category-box-4:hover,
 .category-box-7:hover {
-  background-image: url("../img/star-bg-1.png");
+  background-image: url('../img/star-bg-1.png');
 }
 .category-box-3:hover,
 .category-box-5:hover,
 .category-box-6:hover,
 .category-box-8:hover {
-  background-image: url("../img/star-bg-2.png");
+  background-image: url('../img/star-bg-2.png');
 }
 .category-box-1:hover,
 .category-box-3:hover,
@@ -543,7 +543,8 @@ video:focus {
   box-shadow: none !important;
   border-color: #ca0000;
 }
-.valid-feedback {
+.valid-feedback,
+.invalid-feedback {
   font-size: 1.6rem;
 }
 /* ================ */
